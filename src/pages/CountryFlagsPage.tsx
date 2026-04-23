@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import { Link } from "react-router-dom";
 import { continents } from "../data/countryFlags";
@@ -30,6 +30,7 @@ function normalizeAnswer(value: string) {
 }
 
 export default function CountryFlagsPage() {
+  const inputRef = useRef<HTMLInputElement | null>(null);
   const [activeTab, setActiveTab] = useState(0);
   const [mode, setMode] = useState<"study" | "challenge">("study");
   const [roundCountries, setRoundCountries] = useState<Country[]>([]);
@@ -103,6 +104,19 @@ export default function CountryFlagsPage() {
 
     return () => window.clearTimeout(timeoutId);
   }, [currentIndex, feedback, roundCountries.length]);
+
+  useEffect(() => {
+    if (
+      mode !== "challenge" ||
+      roundComplete ||
+      feedback ||
+      !currentChallengeCountry
+    ) {
+      return;
+    }
+
+    inputRef.current?.focus();
+  }, [currentChallengeCountry, feedback, mode, roundComplete]);
 
   function startChallenge() {
     setMode("challenge");
@@ -220,6 +234,7 @@ export default function CountryFlagsPage() {
 
               <form className="challenge-form" onSubmit={submitGuess}>
                 <input
+                  ref={inputRef}
                   className="challenge-input"
                   type="text"
                   value={guess}
