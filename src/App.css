@@ -63,10 +63,16 @@
   color: #111;
 }
 
-.country-flags-page h1 {
+.study-page h1 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
+}
+
+.page-intro {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
 /* Continent Tabs */
@@ -103,6 +109,33 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1rem;
+}
+
+.study-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.study-group-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.study-group-card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.9rem;
+}
+
+.study-topic-list {
+  padding-left: 1.1rem;
+  color: #444;
+}
+
+.study-topic-list li + li {
+  margin-top: 0.45rem;
 }
 
 /* Flip Card */
