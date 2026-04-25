@@ -9,6 +9,12 @@ const geographyGroups = [
       "World capitals",
       "Time zones and hemispheres",
     ],
+    map: {
+      src: "https://commons.wikimedia.org/wiki/Special:FilePath/World%20map%20with%20labels.svg",
+      alt: "World map with countries labelled",
+      sourceHref: "https://commons.wikimedia.org/wiki/File:World_map_with_labels.svg",
+      sourceLabel: "World map with labels",
+    },
   },
   {
     name: "Land And Water",
@@ -50,6 +56,22 @@ export default function GeographyPage() {
                 <li key={topic}>{topic}</li>
               ))}
             </ul>
+            {group.map ? (
+              <figure className="study-map-figure">
+                <img
+                  className="study-map-image"
+                  src={group.map.src}
+                  alt={group.map.alt}
+                />
+                <figcaption className="study-map-caption">
+                  Reference map:
+                  {" "}
+                  <a href={group.map.sourceHref} target="_blank" rel="noreferrer">
+                    {group.map.sourceLabel}
+                  </a>
+                </figcaption>
+              </figure>
+            ) : null}
           </section>
         ))}
       </div>
