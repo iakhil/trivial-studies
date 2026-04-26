@@ -294,10 +294,7 @@
   margin-top: 0.65rem;
   color: #666;
   font-size: 0.92rem;
-}
-
-.study-map-caption a {
-  color: #1d4ed8;
+  text-align: center;
 }
 
 /* Flip Card */
