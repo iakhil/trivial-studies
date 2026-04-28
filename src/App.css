@@ -75,6 +75,13 @@
   font-size: 1rem;
 }
 
+.study-note {
+  color: #444;
+  margin: -0.6rem 0 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
 /* Continent Tabs */
 .continent-tabs {
   display: flex;
@@ -145,6 +152,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1.5rem;
+}
+
+.fact-grid {
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 }
 
 .challenge-panel {
@@ -400,6 +411,10 @@
   height: 120px;
 }
 
+.fact-card-wrapper {
+  height: 148px;
+}
+
 .country-card-inner {
   position: relative;
   width: 100%;
@@ -436,6 +451,20 @@
   transform: rotateY(180deg);
 }
 
+.fact-card-front,
+.fact-card-back {
+  padding: 0.95rem 0.85rem;
+  gap: 0.65rem;
+}
+
+.fact-card-front {
+  background: linear-gradient(160deg, #f8fafc, #e8eef7);
+}
+
+.fact-card-back {
+  background: linear-gradient(160deg, #ffffff, #eef2ff);
+}
+
 .country-flag {
   width: 100%;
   height: 100%;
@@ -447,6 +476,28 @@
   font-weight: 600;
   text-align: center;
   color: #333;
+}
+
+.fact-card-label {
+  color: #5b6475;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fact-card-country,
+.fact-card-value {
+  color: #1b2230;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.fact-card-value {
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 640px) {
