@@ -9,6 +9,7 @@ export default function HomePage() {
         <TopicCard title="Country Flags" emoji="🌍" to="/country-flags" />
         <TopicCard title="Countries & Capitals" emoji="🏛️" to="/country-capitals" />
         <TopicCard title="Countries & Populations" emoji="📊" to="/country-populations" />
+        <TopicCard title="World's Mountain Ranges" emoji="🏔️" to="/mountain-ranges" />
         <TopicCard title="Geography" emoji="🧭" to="/geography" />
       </div>
     </div>

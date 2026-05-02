@@ -158,6 +158,14 @@
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 }
 
+.mountain-range-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.mountain-range-card {
+  height: 176px;
+}
+
 .challenge-panel {
   background: #fff;
   border-radius: 18px;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import FactCard from "./FactCard";
+import Flashcard from "./Flashcard";
 import { factContinents } from "../data/countryFacts";
 import type { CountryWithFacts } from "../data/countryFacts";
 
@@ -45,11 +45,12 @@ export default function CountryFactStudyPage({
 
       <div className="countries-grid fact-grid">
         {active.countries.map((country) => (
-          <FactCard
+          <Flashcard
             key={country.code}
-            countryName={country.name}
-            factLabel={factLabel}
-            factValue={getFactValue(country)}
+            frontLabel="Country"
+            frontValue={country.name}
+            backLabel={factLabel}
+            backValue={getFactValue(country)}
           />
         ))}
       </div>
