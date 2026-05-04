@@ -6,6 +6,7 @@ import CountryPopulationsPage from './pages/CountryPopulationsPage'
 import GeographyPage from './pages/GeographyPage'
 import MountainRangesPage from './pages/MountainRangesPage'
 import USHistoryPage from './pages/USHistoryPage'
+import USPresidentsPage from './pages/USPresidentsPage'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />
         <Route path="/us-history" element={<USHistoryPage />} />
+        <Route path="/us-presidents" element={<USPresidentsPage />} />
       </Routes>
     </div>
   )
