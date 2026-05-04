@@ -11,6 +11,7 @@ export default function HomePage() {
         <TopicCard title="Countries & Populations" emoji="📊" to="/country-populations" />
         <TopicCard title="World's Mountain Ranges" emoji="🏔️" to="/mountain-ranges" />
         <TopicCard title="Geography" emoji="🧭" to="/geography" />
+        <TopicCard title="US History" emoji="📜" to="/us-history" />
       </div>
     </div>
   );

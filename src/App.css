@@ -166,6 +166,14 @@
   height: 176px;
 }
 
+.us-history-grid {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.us-history-card {
+  height: 190px;
+}
+
 .challenge-panel {
   background: #fff;
   border-radius: 18px;
