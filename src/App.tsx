@@ -6,6 +6,7 @@ import CountryPopulationsPage from './pages/CountryPopulationsPage'
 import DinosaursPage from './pages/DinosaursPage'
 import GeographyPage from './pages/GeographyPage'
 import MountainRangesPage from './pages/MountainRangesPage'
+import OperaTriviaPage from './pages/OperaTriviaPage'
 import USHistoryPage from './pages/USHistoryPage'
 import USPresidentsPage from './pages/USPresidentsPage'
 import USStatesGamePage from './pages/USStatesGamePage'
@@ -22,6 +23,7 @@ function App() {
         <Route path="/dinosaurs" element={<DinosaursPage />} />
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />
+        <Route path="/opera-trivia" element={<OperaTriviaPage />} />
         <Route path="/us-history" element={<USHistoryPage />} />
         <Route path="/us-presidents" element={<USPresidentsPage />} />
         <Route path="/us-states-game" element={<USStatesGamePage />} />
