@@ -14,6 +14,7 @@ export default function HomePage() {
         <TopicCard title="Geography" emoji="🧭" to="/geography" />
         <TopicCard title="US History" emoji="📜" to="/us-history" />
         <TopicCard title="US Presidents" emoji="🇺🇸" to="/us-presidents" />
+        <TopicCard title="US States Map Game" emoji="🗺️" to="/us-states-game" />
       </div>
     </div>
   );

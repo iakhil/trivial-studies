@@ -8,6 +8,7 @@ import GeographyPage from './pages/GeographyPage'
 import MountainRangesPage from './pages/MountainRangesPage'
 import USHistoryPage from './pages/USHistoryPage'
 import USPresidentsPage from './pages/USPresidentsPage'
+import USStatesGamePage from './pages/USStatesGamePage'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/geography" element={<GeographyPage />} />
         <Route path="/us-history" element={<USHistoryPage />} />
         <Route path="/us-presidents" element={<USPresidentsPage />} />
+        <Route path="/us-states-game" element={<USStatesGamePage />} />
       </Routes>
     </div>
   )
