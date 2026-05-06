@@ -114,7 +114,7 @@ export default function USStatesGamePage() {
                     placeState(state.code, selectedState);
                   }}
                 >
-                  {isPlaced ? state.name : state.code}
+                  {isPlaced ? state.name : null}
                 </button>
               );
             })}
