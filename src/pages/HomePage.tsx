@@ -6,6 +6,7 @@ export default function HomePage() {
       <h1>Trivial Studies</h1>
       <p className="subtitle">Pick a topic to study</p>
       <div className="topics-grid">
+        <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
         <TopicCard title="Country Flags" emoji="🌍" to="/country-flags" />
         <TopicCard title="Countries & Capitals" emoji="🏛️" to="/country-capitals" />
         <TopicCard title="Countries & Populations" emoji="📊" to="/country-populations" />

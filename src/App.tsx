@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
+import AmericanLiteraturePage from './pages/AmericanLiteraturePage'
 import CountryFlagsPage from './pages/CountryFlagsPage'
 import CountryCapitalsPage from './pages/CountryCapitalsPage'
 import CountryPopulationsPage from './pages/CountryPopulationsPage'
@@ -17,6 +18,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/american-literature" element={<AmericanLiteraturePage />} />
         <Route path="/country-flags" element={<CountryFlagsPage />} />
         <Route path="/country-capitals" element={<CountryCapitalsPage />} />
         <Route path="/country-populations" element={<CountryPopulationsPage />} />
