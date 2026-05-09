@@ -5,6 +5,7 @@ import CountryFlagsPage from './pages/CountryFlagsPage'
 import CountryCapitalsPage from './pages/CountryCapitalsPage'
 import CountryPopulationsPage from './pages/CountryPopulationsPage'
 import DinosaursPage from './pages/DinosaursPage'
+import GeologicTimePage from './pages/GeologicTimePage'
 import GeographyPage from './pages/GeographyPage'
 import MountainRangesPage from './pages/MountainRangesPage'
 import OperaTriviaPage from './pages/OperaTriviaPage'
@@ -23,6 +24,7 @@ function App() {
         <Route path="/country-capitals" element={<CountryCapitalsPage />} />
         <Route path="/country-populations" element={<CountryPopulationsPage />} />
         <Route path="/dinosaurs" element={<DinosaursPage />} />
+        <Route path="/geologic-time" element={<GeologicTimePage />} />
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />
         <Route path="/opera-trivia" element={<OperaTriviaPage />} />
