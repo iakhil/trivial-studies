@@ -206,6 +206,14 @@
   height: 196px;
 }
 
+.jeopardy-trivia-grid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.jeopardy-trivia-card {
+  height: 196px;
+}
+
 .us-history-grid {
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
