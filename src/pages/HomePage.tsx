@@ -23,6 +23,7 @@ export default function HomePage() {
         <TopicCard title="US History" emoji="📜" to="/us-history" />
         <TopicCard title="US Presidents" emoji="🇺🇸" to="/us-presidents" />
         <TopicCard title="US States Map Game" emoji="🗺️" to="/us-states-game" />
+        <TopicCard title="Volcanoes" emoji="🌋" to="/volcanoes" />
         <TopicCard title="Word Origins & Language" emoji="🔤" to="/word-origins" />
         <TopicCard title="World History" emoji="🏺" to="/world-history" />
       </div>

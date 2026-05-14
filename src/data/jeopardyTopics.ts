@@ -655,3 +655,110 @@ export const wordOriginsTopic: JeopardyTopic = {
     },
   ],
 };
+
+export const volcanoesTopic: JeopardyTopic = {
+  title: "Volcanoes",
+  intro: "Study famous volcanoes, eruption types, volcanic features, and tectonic settings.",
+  groups: [
+    {
+      name: "Famous Volcanoes",
+      cards: [
+        {
+          prompt: "Which Italian volcano destroyed Pompeii and Herculaneum in 79 CE?",
+          answer: "Mount Vesuvius.",
+        },
+        {
+          prompt: "Which Washington volcano erupted dramatically on May 18, 1980?",
+          answer: "Mount St. Helens.",
+        },
+        {
+          prompt: "Which Indonesian volcano produced a massive 1883 eruption heard thousands of miles away?",
+          answer: "Krakatoa.",
+        },
+        {
+          prompt: "Which Hawaiian shield volcano is one of Earth's most active volcanoes?",
+          answer: "Kilauea.",
+        },
+        {
+          prompt: "Which Sicilian volcano is Europe's highest and one of its most active?",
+          answer: "Mount Etna.",
+        },
+      ],
+    },
+    {
+      name: "Eruption Types",
+      cards: [
+        {
+          prompt: "What type of volcanic eruption is generally gentle and dominated by flowing lava?",
+          answer: "An effusive eruption.",
+        },
+        {
+          prompt: "What type of eruption blasts ash, gas, and rock fragments into the air?",
+          answer: "An explosive eruption.",
+        },
+        {
+          prompt: "What is a pyroclastic flow?",
+          answer: "A fast-moving, extremely hot current of gas, ash, and volcanic rock.",
+        },
+        {
+          prompt: "What is a lahar?",
+          answer: "A volcanic mudflow made of water mixed with ash, rock, and debris.",
+        },
+        {
+          prompt: "What is tephra?",
+          answer: "Rock fragments and particles ejected during a volcanic eruption.",
+        },
+      ],
+    },
+    {
+      name: "Volcano Anatomy",
+      cards: [
+        {
+          prompt: "What is magma called once it reaches Earth's surface?",
+          answer: "Lava.",
+        },
+        {
+          prompt: "What is the bowl-shaped depression at a volcano's summit called?",
+          answer: "A crater.",
+        },
+        {
+          prompt: "What is a much larger collapse depression formed after a major eruption called?",
+          answer: "A caldera.",
+        },
+        {
+          prompt: "What underground reservoir stores molten rock beneath a volcano?",
+          answer: "A magma chamber.",
+        },
+        {
+          prompt: "What is the main opening through which volcanic material erupts?",
+          answer: "A vent.",
+        },
+      ],
+    },
+    {
+      name: "Tectonics",
+      cards: [
+        {
+          prompt: "What ocean rim is famous for frequent earthquakes and volcanoes?",
+          answer: "The Ring of Fire.",
+        },
+        {
+          prompt: "Which plate boundary commonly forms volcanic arcs above subduction zones?",
+          answer: "A convergent plate boundary.",
+        },
+        {
+          prompt: "What type of volcano has broad, gently sloping sides built by fluid lava flows?",
+          answer: "A shield volcano.",
+        },
+        {
+          prompt: "What type of volcano is steep-sided and built from alternating lava and ash layers?",
+          answer: "A stratovolcano, also called a composite volcano.",
+        },
+        {
+          prompt: "What is a hotspot in geology?",
+          answer: "A long-lived source of magma that can create volcanoes within or beneath tectonic plates.",
+        },
+      ],
+    },
+  ],
+};

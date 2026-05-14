@@ -19,6 +19,7 @@ import {
   mythologyTopic,
   scienceGrabBagTopic,
   sportsTriviaTopic,
+  volcanoesTopic,
   wordOriginsTopic,
   worldHistoryTopic,
 } from './data/jeopardyTopics'
@@ -46,6 +47,7 @@ function App() {
         <Route path="/us-history" element={<USHistoryPage />} />
         <Route path="/us-presidents" element={<USPresidentsPage />} />
         <Route path="/us-states-game" element={<USStatesGamePage />} />
+        <Route path="/volcanoes" element={<JeopardyTriviaPage topic={volcanoesTopic} />} />
         <Route path="/word-origins" element={<JeopardyTriviaPage topic={wordOriginsTopic} />} />
         <Route path="/world-history" element={<JeopardyTriviaPage topic={worldHistoryTopic} />} />
       </Routes>
