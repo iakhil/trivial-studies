@@ -327,11 +327,62 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  width: 100%;
 }
 
 .challenge-score {
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+.challenge-review {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.challenge-review-row {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid #e1e6ef;
+  border-radius: 12px;
+  padding: 0.65rem 0.75rem;
+  background: #f8fafc;
+}
+
+.challenge-review-row.correct {
+  border-color: #b7e2c3;
+  background: #f0fbf4;
+}
+
+.challenge-review-row.incorrect,
+.challenge-review-row.timeout {
+  border-color: #f3b7b0;
+  background: #fff6f5;
+}
+
+.challenge-review-flag {
+  width: 3.25rem;
+  max-height: 2.2rem;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.challenge-review-country,
+.challenge-review-guess {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.challenge-review-country {
+  font-weight: 700;
+}
+
+.challenge-review-guess {
+  color: #526071;
 }
 
 .study-groups {

@@ -9,6 +9,24 @@ const ROUND_SIZE = 10;
 const TIME_LIMIT_SECONDS = 10;
 const REVEAL_DELAY_MS = 1200;
 
+const countryAliases: Record<string, string[]> = {
+  ae: ["UAE"],
+  cd: ["DR Congo", "Congo Kinshasa"],
+  cg: ["Congo Brazzaville"],
+  ci: ["Cote d'Ivoire"],
+  cv: ["Cape Verde"],
+  cz: ["Czechia"],
+  gb: ["UK", "Great Britain", "Britain"],
+  kp: ["DPRK"],
+  kr: ["Republic of Korea"],
+  mm: ["Burma"],
+  ps: ["Palestinian Territories"],
+  ru: ["Russian Federation"],
+  st: ["Sao Tome and Principe"],
+  us: ["USA", "United States of America", "America"],
+  va: ["Holy See"],
+};
+
 function shuffleCountries(countries: Country[]) {
   const shuffled = [...countries];
 
@@ -29,6 +47,25 @@ function normalizeAnswer(value: string) {
     .toLowerCase();
 }
 
+function isCorrectCountryGuess(guess: string, country: Country) {
+  const acceptedAnswers = [country.name, ...(countryAliases[country.code] ?? [])];
+  const normalizedGuess = normalizeAnswer(guess);
+
+  return acceptedAnswers.some(
+    (answer) => normalizeAnswer(answer) === normalizedGuess
+  );
+}
+
+type ChallengeFeedback = {
+  kind: "correct" | "incorrect" | "timeout";
+  countryName: string;
+};
+
+type ChallengeAnswer = ChallengeFeedback & {
+  code: string;
+  guess: string;
+};
+
 export default function CountryFlagsPage() {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const [activeTab, setActiveTab] = useState(0);
@@ -39,15 +76,12 @@ export default function CountryFlagsPage() {
   const [timeLeft, setTimeLeft] = useState(TIME_LIMIT_SECONDS);
   const [score, setScore] = useState(0);
   const [roundComplete, setRoundComplete] = useState(false);
-  const [feedback, setFeedback] = useState<{
-    kind: "correct" | "incorrect" | "timeout";
-    countryName: string;
-  } | null>(null);
+  const [feedback, setFeedback] = useState<ChallengeFeedback | null>(null);
+  const [challengeAnswers, setChallengeAnswers] = useState<ChallengeAnswer[]>([]);
   const active = continents[activeTab];
   const currentChallengeCountry = roundCountries[currentIndex];
 
-  useEffect(() => {
-    setMode("study");
+  function resetChallengeProgress() {
     setRoundCountries([]);
     setCurrentIndex(0);
     setGuess("");
@@ -55,7 +89,14 @@ export default function CountryFlagsPage() {
     setScore(0);
     setRoundComplete(false);
     setFeedback(null);
-  }, [activeTab]);
+    setChallengeAnswers([]);
+  }
+
+  function selectContinent(index: number) {
+    setActiveTab(index);
+    setMode("study");
+    resetChallengeProgress();
+  }
 
   useEffect(() => {
     if (
@@ -67,15 +108,24 @@ export default function CountryFlagsPage() {
       return;
     }
 
-    if (timeLeft === 0) {
-      setFeedback({
-        kind: "timeout",
-        countryName: currentChallengeCountry.name,
-      });
-      return;
-    }
-
     const timeoutId = window.setTimeout(() => {
+      if (timeLeft <= 1) {
+        setFeedback({
+          kind: "timeout",
+          countryName: currentChallengeCountry.name,
+        });
+        setChallengeAnswers((answers) => [
+          ...answers,
+          {
+            kind: "timeout",
+            countryName: currentChallengeCountry.name,
+            code: currentChallengeCountry.code,
+            guess: "",
+          },
+        ]);
+        return;
+      }
+
       setTimeLeft((currentTime) => currentTime - 1);
     }, 1000);
 
@@ -127,6 +177,7 @@ export default function CountryFlagsPage() {
     setScore(0);
     setRoundComplete(false);
     setFeedback(null);
+    setChallengeAnswers([]);
   }
 
   function submitGuess(event: FormEvent<HTMLFormElement>) {
@@ -136,17 +187,26 @@ export default function CountryFlagsPage() {
       return;
     }
 
-    const isCorrect =
-      normalizeAnswer(guess) === normalizeAnswer(currentChallengeCountry.name);
+    const isCorrect = isCorrectCountryGuess(guess, currentChallengeCountry);
+    const feedbackKind = isCorrect ? "correct" : "incorrect";
 
     if (isCorrect) {
       setScore((currentScore) => currentScore + 1);
     }
 
     setFeedback({
-      kind: isCorrect ? "correct" : "incorrect",
+      kind: feedbackKind,
       countryName: currentChallengeCountry.name,
     });
+    setChallengeAnswers((answers) => [
+      ...answers,
+      {
+        kind: feedbackKind,
+        countryName: currentChallengeCountry.name,
+        code: currentChallengeCountry.code,
+        guess: guess.trim(),
+      },
+    ]);
   }
 
   return (
@@ -161,7 +221,7 @@ export default function CountryFlagsPage() {
           <button
             key={continent.name}
             className={`continent-tab${i === activeTab ? " active" : ""}`}
-            onClick={() => setActiveTab(i)}
+            onClick={() => selectContinent(i)}
           >
             {continent.name}
           </button>
@@ -210,6 +270,28 @@ export default function CountryFlagsPage() {
               <p className="challenge-score">
                 Final score: {score} / {roundCountries.length}
               </p>
+              <div className="challenge-review">
+                {challengeAnswers.map((answer, index) => (
+                  <div
+                    key={`${answer.code}-${index}`}
+                    className={`challenge-review-row ${answer.kind}`}
+                  >
+                    <img
+                      className="challenge-review-flag"
+                      src={`/flags/${answer.code}.svg`}
+                      alt=""
+                    />
+                    <span className="challenge-review-country">
+                      {answer.countryName}
+                    </span>
+                    <span className="challenge-review-guess">
+                      {answer.kind === "timeout"
+                        ? "No answer"
+                        : answer.guess || "Blank"}
+                    </span>
+                  </div>
+                ))}
+              </div>
               <button className="challenge-reset-button" onClick={startChallenge}>
                 Play Again
               </button>

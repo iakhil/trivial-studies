@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { usStateTargets } from "../data/usStatesGame";
 import type { USStateTarget } from "../data/usStatesGame";
@@ -18,11 +18,12 @@ function shuffleStates(states: USStateTarget[]) {
 }
 
 export default function USStatesGamePage() {
-  const [round, setRound] = useState(0);
+  const [shuffledStates, setShuffledStates] = useState(() =>
+    shuffleStates(usStateTargets)
+  );
   const [placedStates, setPlacedStates] = useState<Record<string, boolean>>({});
   const [selectedState, setSelectedState] = useState<string | null>(null);
   const [feedback, setFeedback] = useState("Drag a state name onto its spot.");
-  const shuffledStates = useMemo(() => shuffleStates(usStateTargets), [round]);
   const placedCount = Object.keys(placedStates).length;
   const isComplete = placedCount === usStateTargets.length;
 
@@ -52,7 +53,7 @@ export default function USStatesGamePage() {
   }
 
   function resetGame() {
-    setRound((currentRound) => currentRound + 1);
+    setShuffledStates(shuffleStates(usStateTargets));
     setPlacedStates({});
     setSelectedState(null);
     setFeedback("Drag a state name onto its spot.");
