@@ -762,3 +762,110 @@ export const volcanoesTopic: JeopardyTopic = {
     },
   ],
 };
+
+export const polishHistoryTopic: JeopardyTopic = {
+  title: "Polish History",
+  intro: "Study major rulers, turning points, uprisings, and modern events in Poland's history.",
+  groups: [
+    {
+      name: "Early Poland",
+      cards: [
+        {
+          prompt: "Which ruler's 966 baptism is often treated as the beginning of Christian Poland?",
+          answer: "Mieszko I.",
+        },
+        {
+          prompt: "Who was crowned the first king of Poland in 1025?",
+          answer: "Boleslaw I the Brave.",
+        },
+        {
+          prompt: "Which medieval Polish dynasty began with Mieszko I?",
+          answer: "The Piast dynasty.",
+        },
+        {
+          prompt: "Which 1410 battle saw Polish-Lithuanian forces defeat the Teutonic Knights?",
+          answer: "The Battle of Grunwald.",
+        },
+        {
+          prompt: "Which city was the royal capital of Poland for much of the medieval and early modern period?",
+          answer: "Krakow.",
+        },
+      ],
+    },
+    {
+      name: "Commonwealth",
+      cards: [
+        {
+          prompt: "Which 1569 agreement created the Polish-Lithuanian Commonwealth?",
+          answer: "The Union of Lublin.",
+        },
+        {
+          prompt: "What was the Sejm in the Polish-Lithuanian Commonwealth?",
+          answer: "The parliament or legislative assembly.",
+        },
+        {
+          prompt: "What Latin phrase names the noble privilege that let a single deputy block Sejm decisions?",
+          answer: "Liberum veto.",
+        },
+        {
+          prompt: "Which elected Polish king led relief forces at the 1683 Battle of Vienna?",
+          answer: "John III Sobieski.",
+        },
+        {
+          prompt: "What term refers to the Polish-Lithuanian noble class?",
+          answer: "The szlachta.",
+        },
+      ],
+    },
+    {
+      name: "Partitions And Uprisings",
+      cards: [
+        {
+          prompt: "Which three powers partitioned Poland in the late 1700s?",
+          answer: "Russia, Prussia, and Austria.",
+        },
+        {
+          prompt: "What 1791 document is often called Europe's first modern written constitution?",
+          answer: "The Constitution of 3 May.",
+        },
+        {
+          prompt: "Which Polish military leader led a 1794 uprising against partitioning powers?",
+          answer: "Tadeusz Kosciuszko.",
+        },
+        {
+          prompt: "Which 1830-1831 rebellion challenged Russian rule in partitioned Poland?",
+          answer: "The November Uprising.",
+        },
+        {
+          prompt: "Which 1863-1864 rebellion was another major Polish uprising against Russian rule?",
+          answer: "The January Uprising.",
+        },
+      ],
+    },
+    {
+      name: "Modern Poland",
+      cards: [
+        {
+          prompt: "Which leader is strongly associated with Polish independence in 1918?",
+          answer: "Jozef Pilsudski.",
+        },
+        {
+          prompt: "Which 1920 battle helped stop the Red Army during the Polish-Soviet War?",
+          answer: "The Battle of Warsaw, also called the Miracle on the Vistula.",
+        },
+        {
+          prompt: "Which 1944 uprising was launched by the Polish Home Army against German occupation?",
+          answer: "The Warsaw Uprising.",
+        },
+        {
+          prompt: "Which independent trade union helped challenge communist rule in Poland in the 1980s?",
+          answer: "Solidarity.",
+        },
+        {
+          prompt: "Which Solidarity leader later became president of Poland?",
+          answer: "Lech Walesa.",
+        },
+      ],
+    },
+  ],
+};

@@ -17,6 +17,7 @@ export default function HomePage() {
         <TopicCard title="Geography" emoji="🧭" to="/geography" />
         <TopicCard title="Mythology" emoji="⚡" to="/mythology" />
         <TopicCard title="Opera Trivia" emoji="🎭" to="/opera-trivia" />
+        <TopicCard title="Polish History" emoji="🇵🇱" to="/polish-history" />
         <TopicCard title="Science Grab Bag" emoji="🔬" to="/science-grab-bag" />
         <TopicCard title="Shakespeare Trivia" emoji="🪶" to="/shakespeare-trivia" />
         <TopicCard title="Sports Trivia" emoji="🏅" to="/sports-trivia" />

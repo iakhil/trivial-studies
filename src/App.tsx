@@ -17,6 +17,7 @@ import USStatesGamePage from './pages/USStatesGamePage'
 import {
   artHistoryTopic,
   mythologyTopic,
+  polishHistoryTopic,
   scienceGrabBagTopic,
   sportsTriviaTopic,
   volcanoesTopic,
@@ -41,6 +42,7 @@ function App() {
         <Route path="/geography" element={<GeographyPage />} />
         <Route path="/mythology" element={<JeopardyTriviaPage topic={mythologyTopic} />} />
         <Route path="/opera-trivia" element={<OperaTriviaPage />} />
+        <Route path="/polish-history" element={<JeopardyTriviaPage topic={polishHistoryTopic} />} />
         <Route path="/science-grab-bag" element={<JeopardyTriviaPage topic={scienceGrabBagTopic} />} />
         <Route path="/shakespeare-trivia" element={<ShakespeareTriviaPage />} />
         <Route path="/sports-trivia" element={<JeopardyTriviaPage topic={sportsTriviaTopic} />} />
