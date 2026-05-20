@@ -869,3 +869,645 @@ export const polishHistoryTopic: JeopardyTopic = {
     },
   ],
 };
+
+export const ancientHistoryTopic: JeopardyTopic = {
+  title: "Ancient History",
+  intro: "Study early civilizations, classical empires, ancient rulers, and landmark texts.",
+  groups: [
+    {
+      name: "Early Civilizations",
+      cards: [
+        {
+          prompt: "Which civilization developed along the Tigris and Euphrates rivers?",
+          answer: "Mesopotamia.",
+        },
+        {
+          prompt: "Which ancient writing system used wedge-shaped marks on clay tablets?",
+          answer: "Cuneiform.",
+        },
+        {
+          prompt: "Which ancient civilization built cities such as Harappa and Mohenjo-daro?",
+          answer: "The Indus Valley civilization.",
+        },
+        {
+          prompt: "Which Chinese dynasty is the earliest dynasty supported by strong archaeological evidence?",
+          answer: "The Shang dynasty.",
+        },
+        {
+          prompt: "Which Egyptian king is associated with the Great Pyramid at Giza?",
+          answer: "Khufu, also called Cheops.",
+        },
+      ],
+    },
+    {
+      name: "Greece",
+      cards: [
+        {
+          prompt: "Which Greek city-state is remembered as the birthplace of democracy?",
+          answer: "Athens.",
+        },
+        {
+          prompt: "Which wars pitted Greek city-states against the Persian Empire?",
+          answer: "The Persian Wars.",
+        },
+        {
+          prompt: "Which Greek historian wrote about the Peloponnesian War?",
+          answer: "Thucydides.",
+        },
+        {
+          prompt: "Which philosopher taught Plato?",
+          answer: "Socrates.",
+        },
+        {
+          prompt: "Which Macedonian king conquered much of the eastern Mediterranean and Persia?",
+          answer: "Alexander the Great.",
+        },
+      ],
+    },
+    {
+      name: "Rome",
+      cards: [
+        {
+          prompt: "According to legend, which twin brothers founded Rome?",
+          answer: "Romulus and Remus.",
+        },
+        {
+          prompt: "Which Carthaginian general crossed the Alps during the Second Punic War?",
+          answer: "Hannibal.",
+        },
+        {
+          prompt: "Which Roman emperor was the first emperor of Rome?",
+          answer: "Augustus.",
+        },
+        {
+          prompt: "Which Roman road system helped move armies and goods across the empire?",
+          answer: "Roman roads, including the Appian Way.",
+        },
+        {
+          prompt: "In what year did the Western Roman Empire traditionally fall?",
+          answer: "476 CE.",
+        },
+      ],
+    },
+    {
+      name: "Ancient Texts",
+      cards: [
+        {
+          prompt: "Which Mesopotamian epic follows a king of Uruk seeking immortality?",
+          answer: "The Epic of Gilgamesh.",
+        },
+        {
+          prompt: "Which Indian texts include the Rigveda?",
+          answer: "The Vedas.",
+        },
+        {
+          prompt: "Which Chinese philosopher is associated with the Analects?",
+          answer: "Confucius.",
+        },
+        {
+          prompt: "Which Greek poet is credited with the Iliad and the Odyssey?",
+          answer: "Homer.",
+        },
+        {
+          prompt: "Which Buddhist texts are also called the Three Baskets?",
+          answer: "The Tripitaka or Pali Canon.",
+        },
+      ],
+    },
+  ],
+};
+
+export const europeanHistoryTopic: JeopardyTopic = {
+  title: "European History",
+  intro: "Study medieval Europe, the Renaissance, reformations, and modern European politics.",
+  groups: [
+    {
+      name: "Medieval Europe",
+      cards: [
+        {
+          prompt: "Which Frankish ruler was crowned emperor in Rome on Christmas Day in 800?",
+          answer: "Charlemagne.",
+        },
+        {
+          prompt: "Which 1066 battle led to Norman rule in England?",
+          answer: "The Battle of Hastings.",
+        },
+        {
+          prompt: "What was the dominant social and landholding system of medieval Europe?",
+          answer: "Feudalism.",
+        },
+        {
+          prompt: "Which pandemic devastated Europe in the mid-1300s?",
+          answer: "The Black Death.",
+        },
+        {
+          prompt: "Which long conflict was fought between England and France from 1337 to 1453?",
+          answer: "The Hundred Years' War.",
+        },
+      ],
+    },
+    {
+      name: "Renaissance",
+      cards: [
+        {
+          prompt: "Which Italian city is especially associated with the Medici family and Renaissance art?",
+          answer: "Florence.",
+        },
+        {
+          prompt: "Which invention by Gutenberg helped spread Renaissance and Reformation ideas?",
+          answer: "The movable-type printing press.",
+        },
+        {
+          prompt: "Who wrote The Prince?",
+          answer: "Niccolo Machiavelli.",
+        },
+        {
+          prompt: "Which Renaissance ideal emphasized human potential and classical learning?",
+          answer: "Humanism.",
+        },
+        {
+          prompt: "Which artist painted The School of Athens?",
+          answer: "Raphael.",
+        },
+      ],
+    },
+    {
+      name: "Reformation",
+      cards: [
+        {
+          prompt: "Who published the Ninety-five Theses in 1517?",
+          answer: "Martin Luther.",
+        },
+        {
+          prompt: "Which English monarch broke with Rome and founded the Church of England?",
+          answer: "Henry VIII.",
+        },
+        {
+          prompt: "Which Swiss reformer is strongly associated with predestination?",
+          answer: "John Calvin.",
+        },
+        {
+          prompt: "Which Catholic council responded to the Protestant Reformation?",
+          answer: "The Council of Trent.",
+        },
+        {
+          prompt: "Which 1555 agreement allowed rulers in the Holy Roman Empire to choose Lutheranism or Catholicism?",
+          answer: "The Peace of Augsburg.",
+        },
+      ],
+    },
+    {
+      name: "Modern Europe",
+      cards: [
+        {
+          prompt: "Which 1815 meeting redrew Europe after Napoleon's defeat?",
+          answer: "The Congress of Vienna.",
+        },
+        {
+          prompt: "Which Prussian leader helped unify Germany in 1871?",
+          answer: "Otto von Bismarck.",
+        },
+        {
+          prompt: "Which 1919 treaty formally ended World War I with Germany?",
+          answer: "The Treaty of Versailles.",
+        },
+        {
+          prompt: "Which post-World War II plan helped rebuild Western Europe?",
+          answer: "The Marshall Plan.",
+        },
+        {
+          prompt: "Which 1992 treaty helped create the European Union?",
+          answer: "The Maastricht Treaty.",
+        },
+      ],
+    },
+  ],
+};
+
+export const worldWarsTopic: JeopardyTopic = {
+  title: "World Wars",
+  intro: "Study causes, battles, leaders, treaties, and turning points from both world wars.",
+  groups: [
+    {
+      name: "World War I",
+      cards: [
+        {
+          prompt: "Which assassination helped trigger World War I?",
+          answer: "The assassination of Archduke Franz Ferdinand.",
+        },
+        {
+          prompt: "What term describes the dug-in fighting lines on the Western Front?",
+          answer: "Trench warfare.",
+        },
+        {
+          prompt: "Which 1917 telegram encouraged Mexico to ally with Germany against the United States?",
+          answer: "The Zimmermann Telegram.",
+        },
+        {
+          prompt: "Which 1918 armistice date ended fighting in World War I?",
+          answer: "November 11, 1918.",
+        },
+        {
+          prompt: "Which organization was created after World War I to promote collective security?",
+          answer: "The League of Nations.",
+        },
+      ],
+    },
+    {
+      name: "World War II",
+      cards: [
+        {
+          prompt: "Which 1939 invasion began World War II in Europe?",
+          answer: "Germany's invasion of Poland.",
+        },
+        {
+          prompt: "Which 1941 attack brought the United States into World War II?",
+          answer: "The attack on Pearl Harbor.",
+        },
+        {
+          prompt: "What was the code name for the Allied invasion of Normandy?",
+          answer: "Operation Overlord.",
+        },
+        {
+          prompt: "Which battle is often considered the turning point on the Eastern Front?",
+          answer: "The Battle of Stalingrad.",
+        },
+        {
+          prompt: "Which project developed the first atomic bombs?",
+          answer: "The Manhattan Project.",
+        },
+      ],
+    },
+    {
+      name: "Leaders",
+      cards: [
+        {
+          prompt: "Who was the British prime minister for most of World War II?",
+          answer: "Winston Churchill.",
+        },
+        {
+          prompt: "Who led Nazi Germany during World War II?",
+          answer: "Adolf Hitler.",
+        },
+        {
+          prompt: "Who was the Soviet leader during World War II?",
+          answer: "Joseph Stalin.",
+        },
+        {
+          prompt: "Which U.S. president led the country through most of World War II?",
+          answer: "Franklin D. Roosevelt.",
+        },
+        {
+          prompt: "Which French general led the Free French movement?",
+          answer: "Charles de Gaulle.",
+        },
+      ],
+    },
+    {
+      name: "Aftermath",
+      cards: [
+        {
+          prompt: "Which trials prosecuted major Nazi war criminals after World War II?",
+          answer: "The Nuremberg Trials.",
+        },
+        {
+          prompt: "Which international organization was founded in 1945 after World War II?",
+          answer: "The United Nations.",
+        },
+        {
+          prompt: "What term describes the post-World War II rivalry between the United States and Soviet Union?",
+          answer: "The Cold War.",
+        },
+        {
+          prompt: "Which alliance was founded in 1949 for collective defense in the North Atlantic?",
+          answer: "NATO.",
+        },
+        {
+          prompt: "Which plan divided Germany into occupation zones after World War II?",
+          answer: "Allied occupation by the United States, Britain, France, and the Soviet Union.",
+        },
+      ],
+    },
+  ],
+};
+
+export const biologyTopic: JeopardyTopic = {
+  title: "Biology",
+  intro: "Study cells, genetics, evolution, ecology, and human body basics.",
+  groups: [
+    {
+      name: "Cells",
+      cards: [
+        {
+          prompt: "What structure controls what enters and leaves a cell?",
+          answer: "The cell membrane.",
+        },
+        {
+          prompt: "Which organelle contains most of a eukaryotic cell's DNA?",
+          answer: "The nucleus.",
+        },
+        {
+          prompt: "Which organelles carry out photosynthesis in plant cells?",
+          answer: "Chloroplasts.",
+        },
+        {
+          prompt: "What is the fluid-like material inside a cell called?",
+          answer: "Cytoplasm.",
+        },
+        {
+          prompt: "Which structures make proteins?",
+          answer: "Ribosomes.",
+        },
+      ],
+    },
+    {
+      name: "Genetics",
+      cards: [
+        {
+          prompt: "What molecule stores hereditary information?",
+          answer: "DNA.",
+        },
+        {
+          prompt: "What are different versions of a gene called?",
+          answer: "Alleles.",
+        },
+        {
+          prompt: "Who is known for pea plant experiments that helped found genetics?",
+          answer: "Gregor Mendel.",
+        },
+        {
+          prompt: "What is the name for the full set of an organism's genetic material?",
+          answer: "The genome.",
+        },
+        {
+          prompt: "What process copies DNA before cell division?",
+          answer: "DNA replication.",
+        },
+      ],
+    },
+    {
+      name: "Evolution",
+      cards: [
+        {
+          prompt: "Which scientist wrote On the Origin of Species?",
+          answer: "Charles Darwin.",
+        },
+        {
+          prompt: "What process favors traits that improve survival and reproduction?",
+          answer: "Natural selection.",
+        },
+        {
+          prompt: "What is a fossil?",
+          answer: "Preserved evidence of ancient life.",
+        },
+        {
+          prompt: "What term describes the formation of new species?",
+          answer: "Speciation.",
+        },
+        {
+          prompt: "Which islands helped inspire Darwin's ideas about evolution?",
+          answer: "The Galapagos Islands.",
+        },
+      ],
+    },
+    {
+      name: "Ecology",
+      cards: [
+        {
+          prompt: "What is a group of the same species living in one area called?",
+          answer: "A population.",
+        },
+        {
+          prompt: "What is the role an organism plays in its ecosystem called?",
+          answer: "Its niche.",
+        },
+        {
+          prompt: "What organisms make their own food and form the base of many food webs?",
+          answer: "Producers.",
+        },
+        {
+          prompt: "What is biodiversity?",
+          answer: "The variety of life in an area or on Earth.",
+        },
+        {
+          prompt: "What process returns nitrogen from the atmosphere to forms organisms can use?",
+          answer: "Nitrogen fixation.",
+        },
+      ],
+    },
+  ],
+};
+
+export const chemistryTopic: JeopardyTopic = {
+  title: "Chemistry",
+  intro: "Study elements, bonding, reactions, acids and bases, and lab vocabulary.",
+  groups: [
+    {
+      name: "Elements",
+      cards: [
+        {
+          prompt: "What is the chemical symbol for iron?",
+          answer: "Fe.",
+        },
+        {
+          prompt: "What is the chemical symbol for silver?",
+          answer: "Ag.",
+        },
+        {
+          prompt: "Which element has atomic number 6?",
+          answer: "Carbon.",
+        },
+        {
+          prompt: "Which noble gas is used in bright advertising signs?",
+          answer: "Neon.",
+        },
+        {
+          prompt: "What is the most abundant element in the universe?",
+          answer: "Hydrogen.",
+        },
+      ],
+    },
+    {
+      name: "Bonding",
+      cards: [
+        {
+          prompt: "What type of bond involves sharing electron pairs?",
+          answer: "A covalent bond.",
+        },
+        {
+          prompt: "What type of bond forms from attraction between oppositely charged ions?",
+          answer: "An ionic bond.",
+        },
+        {
+          prompt: "What is a molecule?",
+          answer: "Two or more atoms chemically bonded together.",
+        },
+        {
+          prompt: "What is the name for a positively charged ion?",
+          answer: "A cation.",
+        },
+        {
+          prompt: "What is the name for a negatively charged ion?",
+          answer: "An anion.",
+        },
+      ],
+    },
+    {
+      name: "Reactions",
+      cards: [
+        {
+          prompt: "What law says mass is not created or destroyed in a chemical reaction?",
+          answer: "The law of conservation of mass.",
+        },
+        {
+          prompt: "What type of reaction combines a substance with oxygen and releases energy?",
+          answer: "Combustion.",
+        },
+        {
+          prompt: "What is a catalyst?",
+          answer: "A substance that speeds up a reaction without being consumed.",
+        },
+        {
+          prompt: "What is oxidation often defined as in terms of electrons?",
+          answer: "Loss of electrons.",
+        },
+        {
+          prompt: "What is reduction often defined as in terms of electrons?",
+          answer: "Gain of electrons.",
+        },
+      ],
+    },
+    {
+      name: "Acids And Bases",
+      cards: [
+        {
+          prompt: "What pH values are acidic?",
+          answer: "Values below 7.",
+        },
+        {
+          prompt: "What pH values are basic?",
+          answer: "Values above 7.",
+        },
+        {
+          prompt: "What ion is associated with acids in water?",
+          answer: "Hydrogen ions, H+.",
+        },
+        {
+          prompt: "What ion is associated with many bases in water?",
+          answer: "Hydroxide ions, OH-.",
+        },
+        {
+          prompt: "What reaction between an acid and a base often forms water and a salt?",
+          answer: "Neutralization.",
+        },
+      ],
+    },
+  ],
+};
+
+export const astronomyTopic: JeopardyTopic = {
+  title: "Astronomy",
+  intro: "Study planets, stars, galaxies, missions, and major space concepts.",
+  groups: [
+    {
+      name: "Solar System",
+      cards: [
+        {
+          prompt: "Which planet is closest to the Sun?",
+          answer: "Mercury.",
+        },
+        {
+          prompt: "Which planet has the Great Red Spot?",
+          answer: "Jupiter.",
+        },
+        {
+          prompt: "Which planet rotates on its side compared with the others?",
+          answer: "Uranus.",
+        },
+        {
+          prompt: "What is the asteroid belt located between?",
+          answer: "Mars and Jupiter.",
+        },
+        {
+          prompt: "Which dwarf planet was formerly classified as the ninth planet?",
+          answer: "Pluto.",
+        },
+      ],
+    },
+    {
+      name: "Stars",
+      cards: [
+        {
+          prompt: "What process powers the Sun and other main-sequence stars?",
+          answer: "Nuclear fusion.",
+        },
+        {
+          prompt: "What is a supernova?",
+          answer: "A powerful stellar explosion.",
+        },
+        {
+          prompt: "What color are the hottest stars, generally speaking?",
+          answer: "Blue.",
+        },
+        {
+          prompt: "What is a neutron star?",
+          answer: "An extremely dense remnant of a massive star.",
+        },
+        {
+          prompt: "What diagram plots stars by luminosity and temperature?",
+          answer: "The Hertzsprung-Russell diagram.",
+        },
+      ],
+    },
+    {
+      name: "Galaxies",
+      cards: [
+        {
+          prompt: "What type of galaxy is the Milky Way?",
+          answer: "A barred spiral galaxy.",
+        },
+        {
+          prompt: "Which large galaxy is on a future collision course with the Milky Way?",
+          answer: "The Andromeda Galaxy.",
+        },
+        {
+          prompt: "What is the name for a galaxy's central supermassive black hole region when highly active?",
+          answer: "An active galactic nucleus.",
+        },
+        {
+          prompt: "What invisible substance is inferred from gravity but does not emit light?",
+          answer: "Dark matter.",
+        },
+        {
+          prompt: "What observation showed that the universe is expanding?",
+          answer: "The redshift of distant galaxies.",
+        },
+      ],
+    },
+    {
+      name: "Spaceflight",
+      cards: [
+        {
+          prompt: "Who was the first human in space?",
+          answer: "Yuri Gagarin.",
+        },
+        {
+          prompt: "Who was the first person to walk on the Moon?",
+          answer: "Neil Armstrong.",
+        },
+        {
+          prompt: "Which telescope launched in 1990 and transformed optical astronomy?",
+          answer: "The Hubble Space Telescope.",
+        },
+        {
+          prompt: "Which NASA rover landed in Jezero Crater on Mars in 2021?",
+          answer: "Perseverance.",
+        },
+        {
+          prompt: "What reusable NASA spacecraft program flew from 1981 to 2011?",
+          answer: "The Space Shuttle.",
+        },
+      ],
+    },
+  ],
+};

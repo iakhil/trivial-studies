@@ -385,6 +385,118 @@
   color: #526071;
 }
 
+.flashcard-challenge-panel {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+}
+
+.flashcard-challenge-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.flashcard-challenge-intro h2 {
+  font-size: 1.3rem;
+}
+
+.flashcard-challenge-help {
+  color: #526071;
+}
+
+.flashcard-challenge-card,
+.flashcard-challenge-answer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.flashcard-challenge-card {
+  background: #f5f7fb;
+}
+
+.flashcard-challenge-answer {
+  background: #f0fbf4;
+  color: #1f3d2b;
+  font-weight: 650;
+}
+
+.flashcard-challenge-prompt {
+  font-size: 1.25rem;
+  font-weight: 750;
+  color: #1b2230;
+}
+
+.flashcard-challenge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.challenge-miss-button {
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  background: #fff1f0;
+  color: #9f2318;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.challenge-miss-button:hover {
+  background: #ffe0dc;
+  transform: translateY(-1px);
+}
+
+.flashcard-challenge-review {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.flashcard-challenge-review-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 0.75rem;
+  border: 1px solid #e1e6ef;
+  border-radius: 12px;
+  padding: 0.75rem;
+  background: #f8fafc;
+}
+
+.flashcard-challenge-review-row.correct {
+  border-color: #b7e2c3;
+  background: #f0fbf4;
+}
+
+.flashcard-challenge-review-row.incorrect {
+  border-color: #f3b7b0;
+  background: #fff6f5;
+}
+
+.flashcard-challenge-review-prompt,
+.flashcard-challenge-review-answer {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.flashcard-challenge-review-prompt {
+  font-weight: 750;
+}
+
+.flashcard-challenge-review-answer {
+  color: #526071;
+}
+
 .study-groups {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));

@@ -7,11 +7,16 @@ export default function HomePage() {
       <p className="subtitle">Pick a topic to study</p>
       <div className="topics-grid">
         <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
+        <TopicCard title="Ancient History" emoji="🏛️" to="/ancient-history" />
         <TopicCard title="Art History" emoji="🖼️" to="/art-history" />
+        <TopicCard title="Astronomy" emoji="🔭" to="/astronomy" />
+        <TopicCard title="Biology" emoji="🧬" to="/biology" />
+        <TopicCard title="Chemistry" emoji="⚗️" to="/chemistry" />
         <TopicCard title="Country Flags" emoji="🌍" to="/country-flags" />
         <TopicCard title="Countries & Capitals" emoji="🏛️" to="/country-capitals" />
         <TopicCard title="Countries & Populations" emoji="📊" to="/country-populations" />
         <TopicCard title="Dinosaurs" emoji="🦖" to="/dinosaurs" />
+        <TopicCard title="European History" emoji="🏰" to="/european-history" />
         <TopicCard title="Geologic Time" emoji="🪨" to="/geologic-time" />
         <TopicCard title="World's Mountain Ranges" emoji="🏔️" to="/mountain-ranges" />
         <TopicCard title="Geography" emoji="🧭" to="/geography" />
@@ -26,6 +31,7 @@ export default function HomePage() {
         <TopicCard title="US States Map Game" emoji="🗺️" to="/us-states-game" />
         <TopicCard title="Volcanoes" emoji="🌋" to="/volcanoes" />
         <TopicCard title="Word Origins & Language" emoji="🔤" to="/word-origins" />
+        <TopicCard title="World Wars" emoji="🎖️" to="/world-wars" />
         <TopicCard title="World History" emoji="🏺" to="/world-history" />
       </div>
     </div>
