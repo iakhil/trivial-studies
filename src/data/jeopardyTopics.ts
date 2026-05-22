@@ -763,6 +763,441 @@ export const volcanoesTopic: JeopardyTopic = {
   ],
 };
 
+export const usNationalParksTopic: JeopardyTopic = {
+  title: "US National Parks",
+  intro: "Study designated US national parks grouped by state and territory.",
+  groups: [
+    {
+      name: "Alaska",
+      cards: [
+        {
+          prompt: "Which Alaska national park is centered on North America's tallest peak?",
+          answer: "Denali National Park and Preserve.",
+        },
+        {
+          prompt: "Which remote Alaska national park lies entirely north of the Arctic Circle?",
+          answer: "Gates of the Arctic National Park and Preserve.",
+        },
+        {
+          prompt: "Which Alaska national park is known for tidewater glaciers and Glacier Bay itself?",
+          answer: "Glacier Bay National Park and Preserve.",
+        },
+        {
+          prompt: "Which Alaska national park is famous for brown bears fishing at Brooks Falls?",
+          answer: "Katmai National Park and Preserve.",
+        },
+        {
+          prompt: "Which Alaska national park protects Harding Icefield and fjords near Seward?",
+          answer: "Kenai Fjords National Park.",
+        },
+        {
+          prompt: "Which Alaska national park protects dunes and caribou migration routes above the Arctic Circle?",
+          answer: "Kobuk Valley National Park.",
+        },
+        {
+          prompt: "Which Alaska national park includes turquoise lakes, volcanoes, and the Chigmit Mountains?",
+          answer: "Lake Clark National Park and Preserve.",
+        },
+        {
+          prompt: "Which Alaska national park is the largest unit in the National Park System?",
+          answer: "Wrangell-St. Elias National Park and Preserve.",
+        },
+      ],
+    },
+    {
+      name: "American Samoa",
+      cards: [
+        {
+          prompt: "Which US national park protects tropical rainforest, coral reefs, and Samoan culture in the South Pacific?",
+          answer: "National Park of American Samoa.",
+        },
+      ],
+    },
+    {
+      name: "Arizona",
+      cards: [
+        {
+          prompt: "Which Arizona national park is centered on a vast canyon carved by the Colorado River?",
+          answer: "Grand Canyon National Park.",
+        },
+        {
+          prompt: "Which Arizona national park preserves colorful badlands and fossilized Triassic trees?",
+          answer: "Petrified Forest National Park.",
+        },
+        {
+          prompt: "Which Arizona national park is named for the giant cactus that symbolizes the Sonoran Desert?",
+          answer: "Saguaro National Park.",
+        },
+      ],
+    },
+    {
+      name: "Arkansas",
+      cards: [
+        {
+          prompt: "Which Arkansas national park is built around historic thermal springs and Bathhouse Row?",
+          answer: "Hot Springs National Park.",
+        },
+      ],
+    },
+    {
+      name: "California",
+      cards: [
+        {
+          prompt: "Which California national park protects five islands off the southern coast?",
+          answer: "Channel Islands National Park.",
+        },
+        {
+          prompt: "Which California and Nevada national park includes Badwater Basin and extreme desert landscapes?",
+          answer: "Death Valley National Park.",
+        },
+        {
+          prompt: "Which California national park joins the Mojave and Colorado deserts and is named for a distinctive yucca?",
+          answer: "Joshua Tree National Park.",
+        },
+        {
+          prompt: "Which Sierra Nevada national park borders Sequoia and protects deep canyons and high peaks?",
+          answer: "Kings Canyon National Park.",
+        },
+        {
+          prompt: "Which northern California national park preserves hydrothermal features around a Cascade volcano?",
+          answer: "Lassen Volcanic National Park.",
+        },
+        {
+          prompt: "Which California national park protects volcanic spires and talus caves in the Gabilan Range?",
+          answer: "Pinnacles National Park.",
+        },
+        {
+          prompt: "Which California national park protects some of the world's tallest coast redwood trees?",
+          answer: "Redwood National and State Parks.",
+        },
+        {
+          prompt: "Which California national park is famous for giant sequoia groves including the General Sherman Tree?",
+          answer: "Sequoia National Park.",
+        },
+        {
+          prompt: "Which California national park is known for Yosemite Valley, Half Dome, and El Capitan?",
+          answer: "Yosemite National Park.",
+        },
+      ],
+    },
+    {
+      name: "Colorado",
+      cards: [
+        {
+          prompt: "Which Colorado national park protects a steep, narrow gorge of the Gunnison River?",
+          answer: "Black Canyon of the Gunnison National Park.",
+        },
+        {
+          prompt: "Which Colorado national park contains the tallest sand dunes in North America?",
+          answer: "Great Sand Dunes National Park and Preserve.",
+        },
+        {
+          prompt: "Which Colorado national park preserves ancestral Pueblo cliff dwellings?",
+          answer: "Mesa Verde National Park.",
+        },
+        {
+          prompt: "Which Colorado national park is known for Trail Ridge Road and alpine Rocky Mountain scenery?",
+          answer: "Rocky Mountain National Park.",
+        },
+      ],
+    },
+    {
+      name: "Florida",
+      cards: [
+        {
+          prompt: "Which Florida national park protects coral reefs and islands near Miami?",
+          answer: "Biscayne National Park.",
+        },
+        {
+          prompt: "Which Florida national park is centered on Fort Jefferson and remote islands west of Key West?",
+          answer: "Dry Tortugas National Park.",
+        },
+        {
+          prompt: "Which Florida national park protects a vast subtropical wetland and sawgrass prairie?",
+          answer: "Everglades National Park.",
+        },
+      ],
+    },
+    {
+      name: "Hawaii",
+      cards: [
+        {
+          prompt: "Which Hawaii national park protects the summit of a massive dormant volcano on Maui?",
+          answer: "Haleakala National Park.",
+        },
+        {
+          prompt: "Which Hawaii national park protects Kilauea and Mauna Loa?",
+          answer: "Hawaii Volcanoes National Park.",
+        },
+      ],
+    },
+    {
+      name: "Idaho",
+      cards: [
+        {
+          prompt: "Which national park extends into Idaho in its remote western edge?",
+          answer: "Yellowstone National Park.",
+        },
+      ],
+    },
+    {
+      name: "Indiana",
+      cards: [
+        {
+          prompt: "Which Indiana national park protects Lake Michigan dunes, wetlands, and prairies?",
+          answer: "Indiana Dunes National Park.",
+        },
+      ],
+    },
+    {
+      name: "Kentucky",
+      cards: [
+        {
+          prompt: "Which Kentucky national park protects the world's longest known cave system?",
+          answer: "Mammoth Cave National Park.",
+        },
+      ],
+    },
+    {
+      name: "Maine",
+      cards: [
+        {
+          prompt: "Which Maine national park protects Mount Desert Island, coastal headlands, and Cadillac Mountain?",
+          answer: "Acadia National Park.",
+        },
+      ],
+    },
+    {
+      name: "Michigan",
+      cards: [
+        {
+          prompt: "Which Michigan national park protects a remote island wilderness in Lake Superior?",
+          answer: "Isle Royale National Park.",
+        },
+      ],
+    },
+    {
+      name: "Minnesota",
+      cards: [
+        {
+          prompt: "Which Minnesota national park protects interconnected lakes along the Canadian border?",
+          answer: "Voyageurs National Park.",
+        },
+      ],
+    },
+    {
+      name: "Missouri",
+      cards: [
+        {
+          prompt: "Which Missouri national park centers on the stainless steel monument in St. Louis?",
+          answer: "Gateway Arch National Park.",
+        },
+      ],
+    },
+    {
+      name: "Montana",
+      cards: [
+        {
+          prompt: "Which Montana national park is known for Going-to-the-Sun Road and rugged northern Rockies scenery?",
+          answer: "Glacier National Park.",
+        },
+        {
+          prompt: "Which national park reaches Montana with geysers, wildlife, and the Yellowstone ecosystem?",
+          answer: "Yellowstone National Park.",
+        },
+      ],
+    },
+    {
+      name: "Nevada",
+      cards: [
+        {
+          prompt: "Which California and Nevada national park includes Badwater Basin and Telescope Peak?",
+          answer: "Death Valley National Park.",
+        },
+        {
+          prompt: "Which Nevada national park protects Wheeler Peak, bristlecone pines, and Lehman Caves?",
+          answer: "Great Basin National Park.",
+        },
+      ],
+    },
+    {
+      name: "New Mexico",
+      cards: [
+        {
+          prompt: "Which New Mexico national park protects vast limestone caves in the Guadalupe Mountains?",
+          answer: "Carlsbad Caverns National Park.",
+        },
+        {
+          prompt: "Which New Mexico national park protects bright gypsum dunes in the Tularosa Basin?",
+          answer: "White Sands National Park.",
+        },
+      ],
+    },
+    {
+      name: "North Carolina",
+      cards: [
+        {
+          prompt: "Which national park spans North Carolina and Tennessee with misty Appalachian mountains?",
+          answer: "Great Smoky Mountains National Park.",
+        },
+      ],
+    },
+    {
+      name: "North Dakota",
+      cards: [
+        {
+          prompt: "Which North Dakota national park protects badlands landscapes linked to a future US president's ranching years?",
+          answer: "Theodore Roosevelt National Park.",
+        },
+      ],
+    },
+    {
+      name: "Ohio",
+      cards: [
+        {
+          prompt: "Which Ohio national park follows the Cuyahoga River between Cleveland and Akron?",
+          answer: "Cuyahoga Valley National Park.",
+        },
+      ],
+    },
+    {
+      name: "Oregon",
+      cards: [
+        {
+          prompt: "Which Oregon national park protects the deep blue lake inside the caldera of Mount Mazama?",
+          answer: "Crater Lake National Park.",
+        },
+      ],
+    },
+    {
+      name: "South Carolina",
+      cards: [
+        {
+          prompt: "Which South Carolina national park protects old-growth bottomland hardwood forest?",
+          answer: "Congaree National Park.",
+        },
+      ],
+    },
+    {
+      name: "South Dakota",
+      cards: [
+        {
+          prompt: "Which South Dakota national park protects eroded buttes, mixed-grass prairie, and fossil beds?",
+          answer: "Badlands National Park.",
+        },
+        {
+          prompt: "Which South Dakota national park protects a complex cave system and mixed-grass prairie?",
+          answer: "Wind Cave National Park.",
+        },
+      ],
+    },
+    {
+      name: "Tennessee",
+      cards: [
+        {
+          prompt: "Which national park spans Tennessee and North Carolina and is one of the most visited in the country?",
+          answer: "Great Smoky Mountains National Park.",
+        },
+      ],
+    },
+    {
+      name: "Texas",
+      cards: [
+        {
+          prompt: "Which Texas national park protects Chihuahuan Desert, Rio Grande canyons, and the Chisos Mountains?",
+          answer: "Big Bend National Park.",
+        },
+        {
+          prompt: "Which Texas national park protects the highest point in Texas and an ancient reef landscape?",
+          answer: "Guadalupe Mountains National Park.",
+        },
+      ],
+    },
+    {
+      name: "Utah",
+      cards: [
+        {
+          prompt: "Which Utah national park is famous for Delicate Arch and thousands of natural stone arches?",
+          answer: "Arches National Park.",
+        },
+        {
+          prompt: "Which Utah national park is known for orange hoodoos in amphitheater-shaped basins?",
+          answer: "Bryce Canyon National Park.",
+        },
+        {
+          prompt: "Which Utah national park protects rugged districts carved by the Colorado and Green rivers?",
+          answer: "Canyonlands National Park.",
+        },
+        {
+          prompt: "Which Utah national park preserves the Waterpocket Fold?",
+          answer: "Capitol Reef National Park.",
+        },
+        {
+          prompt: "Which Utah national park is known for Zion Canyon and the Virgin River?",
+          answer: "Zion National Park.",
+        },
+      ],
+    },
+    {
+      name: "Virgin Islands",
+      cards: [
+        {
+          prompt: "Which US national park protects beaches, coral reefs, and tropical forest on St. John?",
+          answer: "Virgin Islands National Park.",
+        },
+      ],
+    },
+    {
+      name: "Virginia",
+      cards: [
+        {
+          prompt: "Which Virginia national park follows the Blue Ridge Mountains along Skyline Drive?",
+          answer: "Shenandoah National Park.",
+        },
+      ],
+    },
+    {
+      name: "Washington",
+      cards: [
+        {
+          prompt: "Which Washington national park surrounds a glaciated Cascade stratovolcano also called Tahoma?",
+          answer: "Mount Rainier National Park.",
+        },
+        {
+          prompt: "Which Washington national park protects rugged Cascade peaks near the Canadian border?",
+          answer: "North Cascades National Park.",
+        },
+        {
+          prompt: "Which Washington national park includes temperate rainforest, Pacific coastline, and high mountains?",
+          answer: "Olympic National Park.",
+        },
+      ],
+    },
+    {
+      name: "West Virginia",
+      cards: [
+        {
+          prompt: "Which West Virginia national park protects a deep river gorge and the New River?",
+          answer: "New River Gorge National Park and Preserve.",
+        },
+      ],
+    },
+    {
+      name: "Wyoming",
+      cards: [
+        {
+          prompt: "Which Wyoming national park protects the Teton Range and Jackson Hole valley?",
+          answer: "Grand Teton National Park.",
+        },
+        {
+          prompt: "Which Wyoming-based national park is famous for Old Faithful and the Grand Prismatic Spring?",
+          answer: "Yellowstone National Park.",
+        },
+      ],
+    },
+  ],
+};
+
 export const polishHistoryTopic: JeopardyTopic = {
   title: "Polish History",
   intro: "Study major rulers, turning points, uprisings, and modern events in Poland's history.",

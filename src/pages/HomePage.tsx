@@ -27,6 +27,7 @@ export default function HomePage() {
         <TopicCard title="Shakespeare Trivia" emoji="🪶" to="/shakespeare-trivia" />
         <TopicCard title="Sports Trivia" emoji="🏅" to="/sports-trivia" />
         <TopicCard title="US History" emoji="📜" to="/us-history" />
+        <TopicCard title="US National Parks" emoji="🏞️" to="/us-national-parks" />
         <TopicCard title="US Presidents" emoji="🇺🇸" to="/us-presidents" />
         <TopicCard title="US States Map Game" emoji="🗺️" to="/us-states-game" />
         <TopicCard title="Volcanoes" emoji="🌋" to="/volcanoes" />

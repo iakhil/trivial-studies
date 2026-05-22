@@ -25,6 +25,7 @@ import {
   polishHistoryTopic,
   scienceGrabBagTopic,
   sportsTriviaTopic,
+  usNationalParksTopic,
   volcanoesTopic,
   wordOriginsTopic,
   worldWarsTopic,
@@ -58,6 +59,7 @@ function App() {
         <Route path="/shakespeare-trivia" element={<ShakespeareTriviaPage />} />
         <Route path="/sports-trivia" element={<JeopardyTriviaPage topic={sportsTriviaTopic} />} />
         <Route path="/us-history" element={<USHistoryPage />} />
+        <Route path="/us-national-parks" element={<JeopardyTriviaPage topic={usNationalParksTopic} />} />
         <Route path="/us-presidents" element={<USPresidentsPage />} />
         <Route path="/us-states-game" element={<USStatesGamePage />} />
         <Route path="/volcanoes" element={<JeopardyTriviaPage topic={volcanoesTopic} />} />
