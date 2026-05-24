@@ -5,6 +5,9 @@ export default function HomePage() {
     <div className="home-page">
       <h1>Trivial Studies</h1>
       <p className="subtitle">Pick a topic to study</p>
+      <div className="featured-topic">
+        <TopicCard title="Jeopardy Prep Hub" emoji="▦" to="/jeopardy-prep" />
+      </div>
       <div className="topics-grid">
         <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
         <TopicCard title="Ancient History" emoji="🏛️" to="/ancient-history" />

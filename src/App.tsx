@@ -7,6 +7,7 @@ import CountryPopulationsPage from './pages/CountryPopulationsPage'
 import DinosaursPage from './pages/DinosaursPage'
 import GeologicTimePage from './pages/GeologicTimePage'
 import GeographyPage from './pages/GeographyPage'
+import JeopardyPrepPage from './pages/JeopardyPrepPage'
 import JeopardyTriviaPage from './pages/JeopardyTriviaPage'
 import MountainRangesPage from './pages/MountainRangesPage'
 import OperaTriviaPage from './pages/OperaTriviaPage'
@@ -52,6 +53,7 @@ function App() {
         <Route path="/geologic-time" element={<GeologicTimePage />} />
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />
+        <Route path="/jeopardy-prep" element={<JeopardyPrepPage />} />
         <Route path="/mythology" element={<JeopardyTriviaPage topic={mythologyTopic} />} />
         <Route path="/opera-trivia" element={<OperaTriviaPage />} />
         <Route path="/polish-history" element={<JeopardyTriviaPage topic={polishHistoryTopic} />} />
