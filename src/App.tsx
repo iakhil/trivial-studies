@@ -5,6 +5,7 @@ import CountryFlagsPage from './pages/CountryFlagsPage'
 import CountryCapitalsPage from './pages/CountryCapitalsPage'
 import CountryPopulationsPage from './pages/CountryPopulationsPage'
 import DinosaursPage from './pages/DinosaursPage'
+import EnglishLiteraturePage from './pages/EnglishLiteraturePage'
 import GeologicTimePage from './pages/GeologicTimePage'
 import GeographyPage from './pages/GeographyPage'
 import JeopardyPrepPage from './pages/JeopardyPrepPage'
@@ -49,6 +50,7 @@ function App() {
         <Route path="/country-capitals" element={<CountryCapitalsPage />} />
         <Route path="/country-populations" element={<CountryPopulationsPage />} />
         <Route path="/dinosaurs" element={<DinosaursPage />} />
+        <Route path="/english-literature" element={<EnglishLiteraturePage />} />
         <Route path="/european-history" element={<JeopardyTriviaPage topic={europeanHistoryTopic} />} />
         <Route path="/geologic-time" element={<GeologicTimePage />} />
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
