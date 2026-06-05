@@ -171,6 +171,14 @@
   height: 176px;
 }
 
+.river-grid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.river-card {
+  height: 190px;
+}
+
 .dinosaur-grid {
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
