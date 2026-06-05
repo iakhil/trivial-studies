@@ -1946,3 +1946,135 @@ export const astronomyTopic: JeopardyTopic = {
     },
   ],
 };
+
+export const brazilianGeographyTopic: JeopardyTopic = {
+  title: "Brazilian Geography",
+  intro: "Study Brazil's regions, rivers, biomes, cities, and major physical landmarks.",
+  groups: [
+    {
+      name: "Regions",
+      cards: [
+        {
+          prompt: "How many official geographic regions does Brazil have?",
+          answer: "Five: North, Northeast, Central-West, Southeast, and South.",
+        },
+        {
+          prompt: "Which Brazilian region contains most of the Amazon rainforest?",
+          answer: "The North region.",
+        },
+        {
+          prompt: "Which region includes the states of Sao Paulo, Rio de Janeiro, Minas Gerais, and Espirito Santo?",
+          answer: "The Southeast region.",
+        },
+        {
+          prompt: "Which region is known for the Pantanal and the federal capital, Brasilia?",
+          answer: "The Central-West region.",
+        },
+        {
+          prompt: "Which southern Brazilian state borders both Argentina and Uruguay?",
+          answer: "Rio Grande do Sul.",
+        },
+      ],
+    },
+    {
+      name: "Rivers",
+      cards: [
+        {
+          prompt: "What is the largest river system in Brazil?",
+          answer: "The Amazon River system.",
+        },
+        {
+          prompt: "Which major river flows through the semi-arid Northeast and is nicknamed the river of national integration?",
+          answer: "The Sao Francisco River.",
+        },
+        {
+          prompt: "Which river forms part of the border between Brazil and Paraguay near the Itaipu Dam?",
+          answer: "The Parana River.",
+        },
+        {
+          prompt: "Which dark-water tributary meets the Amazon near Manaus?",
+          answer: "The Rio Negro.",
+        },
+        {
+          prompt: "Which major Amazon tributary rises in Peru and enters Brazil before joining the Amazon near Manaus?",
+          answer: "The Solimoes River.",
+        },
+      ],
+    },
+    {
+      name: "Biomes",
+      cards: [
+        {
+          prompt: "Which Brazilian biome is the world's largest tropical rainforest?",
+          answer: "The Amazon.",
+        },
+        {
+          prompt: "Which vast tropical savanna covers much of central Brazil?",
+          answer: "The Cerrado.",
+        },
+        {
+          prompt: "Which semi-arid biome is found mostly in Brazil's Northeast?",
+          answer: "The Caatinga.",
+        },
+        {
+          prompt: "Which wetland region is shared by Brazil, Bolivia, and Paraguay?",
+          answer: "The Pantanal.",
+        },
+        {
+          prompt: "Which coastal forest biome once stretched along much of Brazil's Atlantic coast?",
+          answer: "The Atlantic Forest, or Mata Atlantica.",
+        },
+      ],
+    },
+    {
+      name: "Cities",
+      cards: [
+        {
+          prompt: "What is the capital of Brazil?",
+          answer: "Brasilia.",
+        },
+        {
+          prompt: "Which city is Brazil's largest by population and the core of its biggest metropolitan area?",
+          answer: "Sao Paulo.",
+        },
+        {
+          prompt: "Which former national capital is famous for Guanabara Bay and Sugarloaf Mountain?",
+          answer: "Rio de Janeiro.",
+        },
+        {
+          prompt: "Which Amazon city is located near the Meeting of Waters?",
+          answer: "Manaus.",
+        },
+        {
+          prompt: "Which northeastern coastal city is the capital of Bahia?",
+          answer: "Salvador.",
+        },
+      ],
+    },
+    {
+      name: "Landmarks",
+      cards: [
+        {
+          prompt: "What is Brazil's highest mountain?",
+          answer: "Pico da Neblina.",
+        },
+        {
+          prompt: "Which waterfall system sits on the Brazil-Argentina border?",
+          answer: "Iguazu Falls.",
+        },
+        {
+          prompt: "Which mountain range runs along much of southeastern Brazil's Atlantic coast?",
+          answer: "Serra do Mar.",
+        },
+        {
+          prompt: "Which plateau is associated with Brazil's central highlands and the headwaters of many rivers?",
+          answer: "The Brazilian Highlands, or Planalto Brasileiro.",
+        },
+        {
+          prompt: "Which protected dune-and-lagoon landscape is located in Maranhao?",
+          answer: "Lencois Maranhenses.",
+        },
+      ],
+    },
+  ],
+};
