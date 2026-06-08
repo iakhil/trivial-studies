@@ -9,6 +9,7 @@ export default function HomePage() {
         <TopicCard title="Jeopardy Prep Hub" emoji="▦" to="/jeopardy-prep" />
       </div>
       <div className="topics-grid">
+        <TopicCard title="20th Century Literature" emoji="📕" to="/20th-century-literature" />
         <TopicCard title="English Literature" emoji="📖" to="/english-literature" />
         <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
         <TopicCard title="Ancient History" emoji="🏛️" to="/ancient-history" />

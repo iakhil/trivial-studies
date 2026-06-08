@@ -17,6 +17,7 @@ import ShakespeareTriviaPage from './pages/ShakespeareTriviaPage'
 import USHistoryPage from './pages/USHistoryPage'
 import USPresidentsPage from './pages/USPresidentsPage'
 import USStatesGamePage from './pages/USStatesGamePage'
+import TwentiethCenturyLiteraturePage from './pages/TwentiethCenturyLiteraturePage'
 import {
   ancientHistoryTopic,
   artHistoryTopic,
@@ -42,6 +43,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/20th-century-literature" element={<TwentiethCenturyLiteraturePage />} />
         <Route path="/american-literature" element={<AmericanLiteraturePage />} />
         <Route path="/ancient-history" element={<JeopardyTriviaPage topic={ancientHistoryTopic} />} />
         <Route path="/art-history" element={<JeopardyTriviaPage topic={artHistoryTopic} />} />
