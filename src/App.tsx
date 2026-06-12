@@ -26,6 +26,7 @@ import {
   brazilianGeographyTopic,
   chemistryTopic,
   europeanHistoryTopic,
+  fifaWorldCupTopic,
   mythologyTopic,
   polishHistoryTopic,
   scienceGrabBagTopic,
@@ -57,6 +58,7 @@ function App() {
         <Route path="/dinosaurs" element={<DinosaursPage />} />
         <Route path="/english-literature" element={<EnglishLiteraturePage />} />
         <Route path="/european-history" element={<JeopardyTriviaPage topic={europeanHistoryTopic} />} />
+        <Route path="/fifa-world-cup" element={<JeopardyTriviaPage topic={fifaWorldCupTopic} />} />
         <Route path="/geologic-time" element={<GeologicTimePage />} />
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />

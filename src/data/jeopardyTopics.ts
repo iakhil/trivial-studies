@@ -549,6 +549,113 @@ export const sportsTriviaTopic: JeopardyTopic = {
   ],
 };
 
+export const fifaWorldCupTopic: JeopardyTopic = {
+  title: "FIFA World Cup",
+  intro: "Study the history, champions, iconic moments, and records of the men's FIFA World Cup.",
+  groups: [
+    {
+      name: "Tournament History",
+      cards: [
+        {
+          prompt: "Which country hosted and won the first FIFA World Cup in 1930?",
+          answer: "Uruguay.",
+        },
+        {
+          prompt: "Why were no FIFA World Cup tournaments held in 1942 or 1946?",
+          answer: "They were canceled because of World War II and its aftermath.",
+        },
+        {
+          prompt: "Which country hosted the first FIFA World Cup held in Asia?",
+          answer: "South Korea and Japan jointly hosted it in 2002.",
+        },
+        {
+          prompt: "Which country hosted the first FIFA World Cup held in Africa?",
+          answer: "South Africa in 2010.",
+        },
+        {
+          prompt: "What was the World Cup trophy called before it was replaced in 1974?",
+          answer: "The Jules Rimet Trophy.",
+        },
+      ],
+    },
+    {
+      name: "Champions",
+      cards: [
+        {
+          prompt: "Which country has won a record five men's FIFA World Cup titles?",
+          answer: "Brazil.",
+        },
+        {
+          prompt: "Which country won the 1966 FIFA World Cup on home soil?",
+          answer: "England.",
+        },
+        {
+          prompt: "Which country won its first FIFA World Cup title in 2010?",
+          answer: "Spain.",
+        },
+        {
+          prompt: "Which country defeated Croatia in the 2018 FIFA World Cup final?",
+          answer: "France.",
+        },
+        {
+          prompt: "Which country won the 2022 FIFA World Cup after defeating France on penalties?",
+          answer: "Argentina.",
+        },
+      ],
+    },
+    {
+      name: "Iconic Moments",
+      cards: [
+        {
+          prompt: "Which Brazilian star is the only men's player to win three FIFA World Cups?",
+          answer: "Pele.",
+        },
+        {
+          prompt: "Which Argentine player scored the 'Hand of God' goal against England in 1986?",
+          answer: "Diego Maradona.",
+        },
+        {
+          prompt: "Which French player scored two headed goals in the 1998 World Cup final?",
+          answer: "Zinedine Zidane.",
+        },
+        {
+          prompt: "Which goalkeeper captained Italy to the 1982 FIFA World Cup title at age 40?",
+          answer: "Dino Zoff.",
+        },
+        {
+          prompt: "Which player scored a hat trick for France in the 2022 World Cup final?",
+          answer: "Kylian Mbappe.",
+        },
+      ],
+    },
+    {
+      name: "Records",
+      cards: [
+        {
+          prompt: "Who is the all-time leading scorer in men's FIFA World Cup matches with 16 goals?",
+          answer: "Miroslav Klose.",
+        },
+        {
+          prompt: "Who scored a record 13 goals in a single World Cup tournament in 1958?",
+          answer: "Just Fontaine.",
+        },
+        {
+          prompt: "Which player holds the record for the most men's World Cup match appearances with 26?",
+          answer: "Lionel Messi.",
+        },
+        {
+          prompt: "Which Turkish player scored the fastest goal in World Cup history in 2002?",
+          answer: "Hakan Sukur.",
+        },
+        {
+          prompt: "Which two goalkeepers share the men's World Cup record for the most clean sheets with 10?",
+          answer: "Peter Shilton and Fabien Barthez share the record.",
+        },
+      ],
+    },
+  ],
+};
+
 export const wordOriginsTopic: JeopardyTopic = {
   title: "Word Origins & Language",
   intro: "Study roots, foreign phrases, grammar, and language facts often used in trivia clues.",
