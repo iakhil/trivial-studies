@@ -29,6 +29,7 @@ import {
   fifaWorldCupTopic,
   mythologyTopic,
   polishHistoryTopic,
+  pulitzerPrizeTriviaTopic,
   scienceGrabBagTopic,
   sportsTriviaTopic,
   usNationalParksTopic,
@@ -66,6 +67,7 @@ function App() {
         <Route path="/mythology" element={<JeopardyTriviaPage topic={mythologyTopic} />} />
         <Route path="/opera-trivia" element={<OperaTriviaPage />} />
         <Route path="/polish-history" element={<JeopardyTriviaPage topic={polishHistoryTopic} />} />
+        <Route path="/pulitzer-prize-trivia" element={<JeopardyTriviaPage topic={pulitzerPrizeTriviaTopic} />} />
         <Route path="/rivers" element={<RiversPage />} />
         <Route path="/science-grab-bag" element={<JeopardyTriviaPage topic={scienceGrabBagTopic} />} />
         <Route path="/shakespeare-trivia" element={<ShakespeareTriviaPage />} />

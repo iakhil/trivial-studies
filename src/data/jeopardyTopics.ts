@@ -656,6 +656,113 @@ export const fifaWorldCupTopic: JeopardyTopic = {
   ],
 };
 
+export const pulitzerPrizeTriviaTopic: JeopardyTopic = {
+  title: "Pulitzer Prize Trivia",
+  intro: "Study Pulitzer Prize history, journalism winners, literature, drama, music, and major nonfiction honorees.",
+  groups: [
+    {
+      name: "Prize Basics",
+      cards: [
+        {
+          prompt: "Which newspaper publisher established the Pulitzer Prizes through his will?",
+          answer: "Joseph Pulitzer.",
+        },
+        {
+          prompt: "Which university administers the Pulitzer Prizes?",
+          answer: "Columbia University.",
+        },
+        {
+          prompt: "In what year were the first Pulitzer Prizes awarded?",
+          answer: "1917.",
+        },
+        {
+          prompt: "Which Pulitzer category awards a gold medal rather than a cash prize to an individual?",
+          answer: "Public Service, awarded to a news organization.",
+        },
+        {
+          prompt: "Which major prize category covers editorial cartooning, commentary, and criticism?",
+          answer: "Journalism.",
+        },
+      ],
+    },
+    {
+      name: "Journalism",
+      cards: [
+        {
+          prompt: "Which newspaper won a 1972 Pulitzer for publishing the Pentagon Papers?",
+          answer: "The New York Times.",
+        },
+        {
+          prompt: "Which newspaper won the 1973 Public Service Pulitzer for Watergate reporting?",
+          answer: "The Washington Post.",
+        },
+        {
+          prompt: "Which Boston newspaper won the 2003 Public Service Pulitzer for exposing abuse in the Catholic Church?",
+          answer: "The Boston Globe.",
+        },
+        {
+          prompt: "What journalism award is considered the Pulitzer's highest honor?",
+          answer: "The Public Service Pulitzer.",
+        },
+        {
+          prompt: "Which photojournalist won for the famous Vietnam War photograph often called 'Napalm Girl'?",
+          answer: "Nick Ut.",
+        },
+      ],
+    },
+    {
+      name: "Fiction And Drama",
+      cards: [
+        {
+          prompt: "Which Margaret Mitchell novel won the 1937 Pulitzer Prize for the Novel?",
+          answer: "Gone with the Wind.",
+        },
+        {
+          prompt: "Which John Steinbeck novel won the 1940 Pulitzer Prize for Fiction?",
+          answer: "The Grapes of Wrath.",
+        },
+        {
+          prompt: "Which Harper Lee novel won the 1961 Pulitzer Prize for Fiction?",
+          answer: "To Kill a Mockingbird.",
+        },
+        {
+          prompt: "Which Arthur Miller play won the 1949 Pulitzer Prize for Drama?",
+          answer: "Death of a Salesman.",
+        },
+        {
+          prompt: "Which Lin-Manuel Miranda musical won the 2016 Pulitzer Prize for Drama?",
+          answer: "Hamilton.",
+        },
+      ],
+    },
+    {
+      name: "Arts And Nonfiction",
+      cards: [
+        {
+          prompt: "Which rapper won the 2018 Pulitzer Prize for Music for DAMN.?",
+          answer: "Kendrick Lamar.",
+        },
+        {
+          prompt: "Which jazz musician won the 1997 Pulitzer Prize for Music for Blood on the Fields?",
+          answer: "Wynton Marsalis.",
+        },
+        {
+          prompt: "Which poet won four Pulitzer Prizes for Poetry?",
+          answer: "Robert Frost.",
+        },
+        {
+          prompt: "Which Oppenheimer biography by Kai Bird and Martin J. Sherwin won the 2006 Biography Pulitzer?",
+          answer: "American Prometheus.",
+        },
+        {
+          prompt: "Which James M. McPherson Civil War book won the 1989 Pulitzer Prize for History?",
+          answer: "Battle Cry of Freedom.",
+        },
+      ],
+    },
+  ],
+};
+
 export const wordOriginsTopic: JeopardyTopic = {
   title: "Word Origins & Language",
   intro: "Study roots, foreign phrases, grammar, and language facts often used in trivia clues.",
