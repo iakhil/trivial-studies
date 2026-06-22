@@ -3,19 +3,19 @@
   --surface-strong: #111827;
   --surface-muted: rgba(30, 41, 59, 0.76);
   --border: rgba(148, 163, 184, 0.2);
-  --border-strong: rgba(129, 140, 248, 0.46);
+  --border-strong: rgba(56, 189, 248, 0.42);
   --ink: #e5edf8;
   --muted: #9caec4;
-  --brand: #8b5cf6;
-  --brand-strong: #6366f1;
-  --brand-soft: rgba(99, 102, 241, 0.16);
-  --accent: #f472b6;
+  --brand: #0ea5e9;
+  --brand-strong: #0284c7;
+  --brand-soft: rgba(14, 165, 233, 0.14);
+  --accent: #06b6d4;
   --success: #4ade80;
   --danger: #fb7185;
   --warning: #facc15;
   --shadow-sm: 0 14px 34px rgba(0, 0, 0, 0.28);
   --shadow-md: 0 22px 52px rgba(0, 0, 0, 0.34);
-  --shadow-lg: 0 30px 80px rgba(99, 102, 241, 0.26);
+  --shadow-lg: 0 30px 80px rgba(14, 165, 233, 0.2);
   max-width: 1180px;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
@@ -30,7 +30,7 @@ input {
 button:focus-visible,
 a:focus-visible,
 input:focus-visible {
-  outline: 3px solid rgba(129, 140, 248, 0.58);
+  outline: 3px solid rgba(56, 189, 248, 0.48);
   outline-offset: 3px;
 }
 
@@ -79,7 +79,7 @@ input:focus-visible {
   padding: 1.25rem;
   overflow: hidden;
   background:
-    linear-gradient(145deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.7));
+    linear-gradient(145deg, rgba(30, 41, 59, 0.92), rgba(15, 23, 42, 0.78));
   border: 1px solid var(--border);
   border-radius: 24px;
   box-shadow: var(--shadow-sm);
@@ -98,7 +98,7 @@ input:focus-visible {
   width: 8rem;
   height: 8rem;
   border-radius: 999px;
-  background: radial-gradient(circle, rgba(244, 114, 182, 0.18), transparent 68%);
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.14), transparent 68%);
   content: "";
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -120,8 +120,8 @@ input:focus-visible {
   width: 3.15rem;
   height: 3.15rem;
   border-radius: 18px;
-  background: rgba(129, 140, 248, 0.16);
-  box-shadow: inset 0 0 0 1px rgba(199, 210, 254, 0.14);
+  background: rgba(14, 165, 233, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(125, 211, 252, 0.14);
   font-size: 1.95rem;
 }
 
@@ -152,7 +152,7 @@ input:focus-visible {
 
 .back-link:hover {
   border-color: var(--border-strong);
-  color: #c4b5fd;
+  color: #7dd3fc;
   transform: translateY(-1px);
 }
 
@@ -180,10 +180,10 @@ input:focus-visible {
 
 .study-note {
   width: fit-content;
-  border: 1px solid rgba(129, 140, 248, 0.28);
+  border: 1px solid rgba(56, 189, 248, 0.24);
   border-radius: 999px;
-  background: rgba(99, 102, 241, 0.16);
-  color: #c4b5fd;
+  background: rgba(14, 165, 233, 0.12);
+  color: #7dd3fc;
   font-size: 0.86rem;
   font-weight: 800;
   margin: 0;
@@ -217,7 +217,7 @@ input:focus-visible {
 
 .continent-tab:hover {
   border-color: var(--border-strong);
-  color: #ddd6fe;
+  color: #bae6fd;
   transform: translateY(-1px);
 }
 
@@ -225,7 +225,7 @@ input:focus-visible {
   border-color: transparent;
   background: linear-gradient(135deg, var(--brand), var(--accent));
   color: #fff;
-  box-shadow: 0 12px 26px rgba(79, 70, 229, 0.24);
+  box-shadow: 0 12px 26px rgba(14, 165, 233, 0.22);
 }
 
 .mode-toggle {
@@ -268,7 +268,7 @@ input:focus-visible {
 .mode-button:hover,
 .challenge-reset-button:hover,
 .challenge-submit-button:hover {
-  box-shadow: 0 14px 30px rgba(79, 70, 229, 0.18);
+  box-shadow: 0 14px 30px rgba(14, 165, 233, 0.18);
   transform: translateY(-1px);
 }
 
@@ -458,8 +458,8 @@ input:focus-visible {
 }
 
 .challenge-input:focus {
-  border-color: rgba(79, 70, 229, 0.5);
-  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.12);
+  border-color: rgba(56, 189, 248, 0.44);
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.12);
   outline: none;
 }
 
@@ -587,7 +587,7 @@ input:focus-visible {
 
 .flashcard-challenge-card {
   background:
-    radial-gradient(circle at top right, rgba(79, 70, 229, 0.12), transparent 12rem),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.1), transparent 12rem),
     var(--surface-muted);
 }
 
@@ -2617,15 +2617,15 @@ input:focus-visible {
 
 .fact-card-front {
   background:
-    radial-gradient(circle at top right, rgba(129, 140, 248, 0.18), transparent 9rem),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.14), transparent 9rem),
     linear-gradient(150deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.92));
 }
 
 .fact-card-back {
-  border-color: rgba(244, 114, 182, 0.26);
+  border-color: rgba(56, 189, 248, 0.22);
   background:
-    radial-gradient(circle at bottom left, rgba(244, 114, 182, 0.16), transparent 9rem),
-    linear-gradient(150deg, rgba(17, 24, 39, 0.98), rgba(49, 46, 129, 0.62));
+    radial-gradient(circle at bottom left, rgba(14, 165, 233, 0.12), transparent 9rem),
+    linear-gradient(150deg, rgba(17, 24, 39, 0.98), rgba(12, 74, 110, 0.34));
 }
 
 .country-flag {
@@ -2642,7 +2642,7 @@ input:focus-visible {
 }
 
 .fact-card-label {
-  color: #a5b4fc;
+  color: #7dd3fc;
   font-size: 0.7rem;
   font-weight: 850;
   letter-spacing: 0.11em;
@@ -2731,7 +2731,7 @@ input:focus-visible {
 .game-final-response strong,
 .wager-recommendation strong,
 .final-wager-result strong {
-  color: #a5b4fc;
+  color: #7dd3fc;
 }
 
 .jeopardy-prep-hero p,
@@ -2813,9 +2813,9 @@ input:focus-visible {
 .wager-scenario-tab.active,
 .wager-confidence,
 .jeopardy-lane-tags span {
-  border-color: rgba(129, 140, 248, 0.32);
-  background: rgba(99, 102, 241, 0.16);
-  color: #c4b5fd;
+  border-color: rgba(56, 189, 248, 0.28);
+  background: rgba(14, 165, 233, 0.12);
+  color: #bae6fd;
 }
 
 .pattern-answer,
@@ -2860,8 +2860,8 @@ input:focus-visible {
 .game-clue-cell,
 .jeopardy-category-cell,
 .jeopardy-clue-cell {
-  border-color: rgba(129, 140, 248, 0.3);
-  background: linear-gradient(145deg, #3730a3, #1e1b4b);
+  border-color: rgba(56, 189, 248, 0.24);
+  background: linear-gradient(145deg, #0f3b57, #0f172a);
 }
 
 .game-clue-cell.scored,
