@@ -28,6 +28,7 @@ import {
   europeanHistoryTopic,
   fifaWorldCupTopic,
   filmAndTelevisionTopic,
+  moonsOfPlanetsTopic,
   mythologyTopic,
   polishHistoryTopic,
   pulitzerPrizeTriviaTopic,
@@ -66,6 +67,7 @@ function App() {
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />
         <Route path="/jeopardy-prep" element={<JeopardyPrepPage />} />
+        <Route path="/moons-of-planets" element={<JeopardyTriviaPage topic={moonsOfPlanetsTopic} />} />
         <Route path="/mythology" element={<JeopardyTriviaPage topic={mythologyTopic} />} />
         <Route path="/opera-trivia" element={<OperaTriviaPage />} />
         <Route path="/polish-history" element={<JeopardyTriviaPage topic={polishHistoryTopic} />} />

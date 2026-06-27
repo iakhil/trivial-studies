@@ -2399,3 +2399,135 @@ export const brazilianGeographyTopic: JeopardyTopic = {
     },
   ],
 };
+
+export const moonsOfPlanetsTopic: JeopardyTopic = {
+  title: "Moons of Planets",
+  intro: "Study the natural satellites of planets in our solar system, from Earth's Moon to the moons of the giant planets.",
+  groups: [
+    {
+      name: "Jupiter's Moons",
+      cards: [
+        {
+          prompt: "Which is the largest moon of Jupiter and the largest moon in the solar system?",
+          answer: "Ganymede.",
+        },
+        {
+          prompt: "Which volcanic moon of Jupiter has the most intense volcanic activity in the solar system?",
+          answer: "Io.",
+        },
+        {
+          prompt: "Which moon of Jupiter is known for having a subsurface ocean beneath its icy crust?",
+          answer: "Europa.",
+        },
+        {
+          prompt: "Which moon is the second-largest of Jupiter and is known for its dark, heavily cratered surface?",
+          answer: "Callisto.",
+        },
+        {
+          prompt: "Which four largest moons of Jupiter were discovered by Galileo?",
+          answer: "Io, Europa, Ganymede, and Callisto, collectively called the Galilean moons.",
+        },
+      ],
+    },
+    {
+      name: "Saturn's Moons",
+      cards: [
+        {
+          prompt: "Which is Saturn's largest moon and has a thick atmosphere?",
+          answer: "Titan.",
+        },
+        {
+          prompt: "Which moon of Saturn is notable for its geysers that erupt water and organic compounds?",
+          answer: "Enceladus.",
+        },
+        {
+          prompt: "Which moon of Saturn is the second-largest and has an ancient, cratered surface?",
+          answer: "Rhea.",
+        },
+        {
+          prompt: "Which moon of Saturn has a huge impact crater covering nearly a third of its surface?",
+          answer: "Mimas.",
+        },
+        {
+          prompt: "Which small moon of Saturn orbits within the Encke Gap of the A ring and has a flattened shape?",
+          answer: "Pan.",
+        },
+      ],
+    },
+    {
+      name: "Uranus and Neptune Moons",
+      cards: [
+        {
+          prompt: "Which is the largest moon of Uranus?",
+          answer: "Titania.",
+        },
+        {
+          prompt: "Which is the second-largest moon of Uranus?",
+          answer: "Oberon.",
+        },
+        {
+          prompt: "Which is the largest moon of Neptune and is thought to be a captured Kuiper Belt object?",
+          answer: "Triton.",
+        },
+        {
+          prompt: "Which dark moon of Uranus orbits between Ariel and Titania?",
+          answer: "Umbriel.",
+        },
+        {
+          prompt: "Which moon of Neptune is notable for having nitrogen geysers?",
+          answer: "Triton.",
+        },
+      ],
+    },
+    {
+      name: "Earth and Mars Moons",
+      cards: [
+        {
+          prompt: "What is the name of Earth's natural satellite?",
+          answer: "The Moon, often called Luna in scientific contexts.",
+        },
+        {
+          prompt: "What fraction of Earth's diameter is the Moon's diameter?",
+          answer: "Approximately one-quarter.",
+        },
+        {
+          prompt: "Which is the larger of Mars's two moons?",
+          answer: "Phobos.",
+        },
+        {
+          prompt: "Which small moon of Mars is thought to be a captured asteroid and is slowly spiraling toward Mars?",
+          answer: "Phobos.",
+        },
+        {
+          prompt: "Which is the smaller and more distant moon of Mars?",
+          answer: "Deimos.",
+        },
+      ],
+    },
+    {
+      name: "Notable Moon Facts",
+      cards: [
+        {
+          prompt: "Which two planets in the solar system have no known natural moons?",
+          answer: "Mercury and Venus.",
+        },
+        {
+          prompt: "Which two moons are larger than the planet Mercury?",
+          answer: "Ganymede and Titan.",
+        },
+        {
+          prompt: "Which Saturn moon is known for a two-toned surface and a prominent equatorial ridge?",
+          answer: "Iapetus.",
+        },
+        {
+          prompt: "Which large moon has a retrograde orbit around Neptune?",
+          answer: "Triton.",
+        },
+        {
+          prompt: "Which moon in the solar system has the densest atmosphere?",
+          answer: "Titan.",
+        },
+      ],
+    },
+  ],
+};
