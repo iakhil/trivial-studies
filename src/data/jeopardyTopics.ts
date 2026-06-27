@@ -656,6 +656,113 @@ export const fifaWorldCupTopic: JeopardyTopic = {
   ],
 };
 
+export const filmAndTelevisionTopic: JeopardyTopic = {
+  title: "Film And Television",
+  intro: "Study classic films, directors, television milestones, awards, and industry terms.",
+  groups: [
+    {
+      name: "Classic Films",
+      cards: [
+        {
+          prompt: "What 1941 Orson Welles film begins with the word 'Rosebud'?",
+          answer: "Citizen Kane.",
+        },
+        {
+          prompt: "What 1942 film stars Humphrey Bogart and Ingrid Bergman in wartime Morocco?",
+          answer: "Casablanca.",
+        },
+        {
+          prompt: "What Alfred Hitchcock thriller features the Bates Motel?",
+          answer: "Psycho.",
+        },
+        {
+          prompt: "What 1972 Francis Ford Coppola film follows the Corleone crime family?",
+          answer: "The Godfather.",
+        },
+        {
+          prompt: "What 1977 film opened with the line 'A long time ago in a galaxy far, far away...'?",
+          answer: "Star Wars.",
+        },
+      ],
+    },
+    {
+      name: "Directors",
+      cards: [
+        {
+          prompt: "Which director made Jaws, E.T., Jurassic Park, and Schindler's List?",
+          answer: "Steven Spielberg.",
+        },
+        {
+          prompt: "Which director made Pulp Fiction and Kill Bill?",
+          answer: "Quentin Tarantino.",
+        },
+        {
+          prompt: "Which Japanese director made Seven Samurai and Rashomon?",
+          answer: "Akira Kurosawa.",
+        },
+        {
+          prompt: "Which director made Vertigo, Rear Window, and North by Northwest?",
+          answer: "Alfred Hitchcock.",
+        },
+        {
+          prompt: "Which director became the first woman to win the Oscar for Best Director?",
+          answer: "Kathryn Bigelow.",
+        },
+      ],
+    },
+    {
+      name: "Television",
+      cards: [
+        {
+          prompt: "What sitcom features Jerry, Elaine, George, and Kramer?",
+          answer: "Seinfeld.",
+        },
+        {
+          prompt: "What HBO series follows Tony Soprano and his New Jersey crime family?",
+          answer: "The Sopranos.",
+        },
+        {
+          prompt: "What animated sitcom is set in Springfield?",
+          answer: "The Simpsons.",
+        },
+        {
+          prompt: "What drama series follows chemistry teacher Walter White?",
+          answer: "Breaking Bad.",
+        },
+        {
+          prompt: "What sci-fi anthology series begins many episodes with Rod Serling's narration?",
+          answer: "The Twilight Zone.",
+        },
+      ],
+    },
+    {
+      name: "Awards And Terms",
+      cards: [
+        {
+          prompt: "What award is given annually by the Academy of Motion Picture Arts and Sciences?",
+          answer: "The Oscar, or Academy Award.",
+        },
+        {
+          prompt: "What television awards are presented by the Television Academy?",
+          answer: "The Emmy Awards.",
+        },
+        {
+          prompt: "What term describes a film scene shot continuously without an obvious cut?",
+          answer: "A long take.",
+        },
+        {
+          prompt: "What film genre is associated with shadowy lighting, crime stories, and moral ambiguity?",
+          answer: "Film noir.",
+        },
+        {
+          prompt: "What is a pilot episode?",
+          answer: "A first or test episode used to sell or launch a television series.",
+        },
+      ],
+    },
+  ],
+};
+
 export const pulitzerPrizeTriviaTopic: JeopardyTopic = {
   title: "Pulitzer Prize Trivia",
   intro: "Study Pulitzer Prize history, journalism winners, literature, drama, music, and major nonfiction honorees.",
