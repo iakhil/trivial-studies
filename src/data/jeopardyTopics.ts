@@ -335,6 +335,138 @@ export const mythologyTopic: JeopardyTopic = {
   ],
 };
 
+export const romanMythologyTopic: JeopardyTopic = {
+  title: "Roman Mythology",
+  intro: "Study Roman gods, founding legends, epic heroes, sacred rites, and mythological symbols.",
+  groups: [
+    {
+      name: "Gods And Goddesses",
+      cards: [
+        {
+          prompt: "Who is the Roman king of the gods and god of the sky?",
+          answer: "Jupiter.",
+        },
+        {
+          prompt: "Who is the Roman goddess of marriage and queen of the gods?",
+          answer: "Juno.",
+        },
+        {
+          prompt: "Who is the Roman goddess of wisdom and strategic warfare?",
+          answer: "Minerva.",
+        },
+        {
+          prompt: "Who is the Roman god of war and father of Romulus and Remus?",
+          answer: "Mars.",
+        },
+        {
+          prompt: "Who is the Roman goddess of love and mother of Aeneas?",
+          answer: "Venus.",
+        },
+      ],
+    },
+    {
+      name: "Founding Legends",
+      cards: [
+        {
+          prompt: "Which twin brothers are legendary founders of Rome?",
+          answer: "Romulus and Remus.",
+        },
+        {
+          prompt: "What animal is said to have nursed Romulus and Remus?",
+          answer: "A she-wolf.",
+        },
+        {
+          prompt: "Which brother became Rome's first king after killing his twin?",
+          answer: "Romulus.",
+        },
+        {
+          prompt: "Which Trojan hero is an ancestor of Romulus and Remus in Roman legend?",
+          answer: "Aeneas.",
+        },
+        {
+          prompt: "What city did Aeneas flee after its fall to the Greeks?",
+          answer: "Troy.",
+        },
+      ],
+    },
+    {
+      name: "The Aeneid",
+      cards: [
+        {
+          prompt: "Which Roman poet wrote the Aeneid?",
+          answer: "Virgil.",
+        },
+        {
+          prompt: "Which Carthaginian queen falls in love with Aeneas?",
+          answer: "Dido.",
+        },
+        {
+          prompt: "Which underworld guide does Aeneas consult in Book VI of the Aeneid?",
+          answer: "The Sibyl of Cumae.",
+        },
+        {
+          prompt: "Which Italian warrior becomes Aeneas's chief rival near the end of the Aeneid?",
+          answer: "Turnus.",
+        },
+        {
+          prompt: "What future empire does the Aeneid mythically connect to Aeneas's descendants?",
+          answer: "Rome.",
+        },
+      ],
+    },
+    {
+      name: "Rites And Spirits",
+      cards: [
+        {
+          prompt: "Which Roman goddess guarded the hearth and sacred fire?",
+          answer: "Vesta.",
+        },
+        {
+          prompt: "What priestesses tended Vesta's sacred flame?",
+          answer: "The Vestal Virgins.",
+        },
+        {
+          prompt: "What were the household guardian spirits of Roman families called?",
+          answer: "Lares.",
+        },
+        {
+          prompt: "What Roman household spirits were associated with the pantry and family provisions?",
+          answer: "Penates.",
+        },
+        {
+          prompt: "Which two-faced Roman god presided over doors, beginnings, and transitions?",
+          answer: "Janus.",
+        },
+      ],
+    },
+    {
+      name: "Symbols And Equivalents",
+      cards: [
+        {
+          prompt: "Which Greek god is usually matched with the Roman god Mercury?",
+          answer: "Hermes.",
+        },
+        {
+          prompt: "Which Greek goddess is usually matched with the Roman goddess Diana?",
+          answer: "Artemis.",
+        },
+        {
+          prompt: "Which Roman god of the sea corresponds to the Greek Poseidon?",
+          answer: "Neptune.",
+        },
+        {
+          prompt: "Which Roman god of the underworld corresponds to the Greek Hades?",
+          answer: "Pluto.",
+        },
+        {
+          prompt: "What bird is especially associated with Jupiter?",
+          answer: "The eagle.",
+        },
+      ],
+    },
+  ],
+};
+
 export const artHistoryTopic: JeopardyTopic = {
   title: "Art History",
   intro: "Study artists, masterpieces, movements, and museum-ready clues.",
