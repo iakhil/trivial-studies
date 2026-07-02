@@ -10,6 +10,7 @@ export default function HomePage() {
       </div>
       <div className="topics-grid">
         <TopicCard title="20th Century Literature" emoji="📕" to="/20th-century-literature" />
+        <TopicCard title="20th Century Novels" emoji="📘" to="/20th-century-novels" />
         <TopicCard title="English Literature" emoji="📖" to="/english-literature" />
         <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
         <TopicCard title="Ancient History" emoji="🏛️" to="/ancient-history" />

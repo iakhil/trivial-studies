@@ -895,6 +895,138 @@ export const filmAndTelevisionTopic: JeopardyTopic = {
   ],
 };
 
+export const twentiethCenturyNovelsTopic: JeopardyTopic = {
+  title: "20th Century Novels",
+  intro: "Study major 20th century novels, authors, characters, movements, and global literary landmarks.",
+  groups: [
+    {
+      name: "Modernist Novels",
+      cards: [
+        {
+          prompt: "Which James Joyce novel follows Leopold Bloom through Dublin on June 16, 1904?",
+          answer: "Ulysses.",
+        },
+        {
+          prompt: "Which Virginia Woolf novel follows Clarissa Dalloway through one day in London?",
+          answer: "Mrs Dalloway.",
+        },
+        {
+          prompt: "Which Virginia Woolf novel centers on the Ramsay family and a planned trip to a lighthouse?",
+          answer: "To the Lighthouse.",
+        },
+        {
+          prompt: "Which Franz Kafka novel begins with Josef K. arrested without knowing his crime?",
+          answer: "The Trial.",
+        },
+        {
+          prompt: "Which Marcel Proust novel sequence begins with Swann's Way?",
+          answer: "In Search of Lost Time.",
+        },
+      ],
+    },
+    {
+      name: "American Novels",
+      cards: [
+        {
+          prompt: "Which F. Scott Fitzgerald novel features Jay Gatsby and Daisy Buchanan?",
+          answer: "The Great Gatsby.",
+        },
+        {
+          prompt: "Which John Steinbeck novel follows the Joad family during the Dust Bowl?",
+          answer: "The Grapes of Wrath.",
+        },
+        {
+          prompt: "Which Ralph Ellison novel is narrated by an unnamed Black man reflecting on American identity?",
+          answer: "Invisible Man.",
+        },
+        {
+          prompt: "Which Toni Morrison novel centers on Sethe and the legacy of slavery?",
+          answer: "Beloved.",
+        },
+        {
+          prompt: "Which Zora Neale Hurston novel follows Janie Crawford's search for voice and independence?",
+          answer: "Their Eyes Were Watching God.",
+        },
+      ],
+    },
+    {
+      name: "Dystopias And Satire",
+      cards: [
+        {
+          prompt: "Which George Orwell novel depicts Big Brother and the totalitarian state of Oceania?",
+          answer: "Nineteen Eighty-Four.",
+        },
+        {
+          prompt: "Which Aldous Huxley novel imagines a controlled society built around conditioning and pleasure?",
+          answer: "Brave New World.",
+        },
+        {
+          prompt: "Which Ray Bradbury novel is named for the temperature at which paper burns?",
+          answer: "Fahrenheit 451.",
+        },
+        {
+          prompt: "Which Joseph Heller novel gave its name to a no-win logical predicament?",
+          answer: "Catch-22.",
+        },
+        {
+          prompt: "Which Anthony Burgess novel features Alex and a slang called Nadsat?",
+          answer: "A Clockwork Orange.",
+        },
+      ],
+    },
+    {
+      name: "Postwar Novels",
+      cards: [
+        {
+          prompt: "Which J. D. Salinger novel is narrated by Holden Caulfield?",
+          answer: "The Catcher in the Rye.",
+        },
+        {
+          prompt: "Which William Golding novel follows schoolboys stranded on an island?",
+          answer: "Lord of the Flies.",
+        },
+        {
+          prompt: "Which Kurt Vonnegut novel follows Billy Pilgrim, who becomes unstuck in time?",
+          answer: "Slaughterhouse-Five.",
+        },
+        {
+          prompt: "Which Vladimir Nabokov novel is narrated by Humbert Humbert?",
+          answer: "Lolita.",
+        },
+        {
+          prompt: "Which Harper Lee novel features Scout Finch and Atticus Finch?",
+          answer: "To Kill a Mockingbird.",
+        },
+      ],
+    },
+    {
+      name: "Global Novels",
+      cards: [
+        {
+          prompt: "Which Gabriel Garcia Marquez novel follows the Buendia family in Macondo?",
+          answer: "One Hundred Years of Solitude.",
+        },
+        {
+          prompt: "Which Chinua Achebe novel follows Okonkwo and the Igbo village of Umuofia?",
+          answer: "Things Fall Apart.",
+        },
+        {
+          prompt: "Which Salman Rushdie novel follows children born around the moment of India's independence?",
+          answer: "Midnight's Children.",
+        },
+        {
+          prompt: "Which Albert Camus novel opens with Meursault learning of his mother's death?",
+          answer: "The Stranger.",
+        },
+        {
+          prompt: "Which Milan Kundera novel is subtitled with ideas of lightness and weight?",
+          answer: "The Unbearable Lightness of Being.",
+        },
+      ],
+    },
+  ],
+};
+
 export const pulitzerPrizeTriviaTopic: JeopardyTopic = {
   title: "Pulitzer Prize Trivia",
   intro: "Study Pulitzer Prize history, journalism winners, literature, drama, music, and major nonfiction honorees.",
