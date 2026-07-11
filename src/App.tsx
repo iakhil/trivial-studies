@@ -36,6 +36,7 @@ import {
   scienceGrabBagTopic,
   sportsTriviaTopic,
   twentiethCenturyNovelsTopic,
+  twentyTensTvShowsTopic,
   usNationalParksTopic,
   volcanoesTopic,
   wordOriginsTopic,
@@ -51,6 +52,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/20th-century-literature" element={<TwentiethCenturyLiteraturePage />} />
         <Route path="/20th-century-novels" element={<JeopardyTriviaPage topic={twentiethCenturyNovelsTopic} />} />
+        <Route path="/2010s-tv-shows" element={<JeopardyTriviaPage topic={twentyTensTvShowsTopic} />} />
         <Route path="/american-literature" element={<AmericanLiteraturePage />} />
         <Route path="/ancient-history" element={<JeopardyTriviaPage topic={ancientHistoryTopic} />} />
         <Route path="/art-history" element={<JeopardyTriviaPage topic={artHistoryTopic} />} />

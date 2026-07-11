@@ -895,6 +895,138 @@ export const filmAndTelevisionTopic: JeopardyTopic = {
   ],
 };
 
+export const twentyTensTvShowsTopic: JeopardyTopic = {
+  title: "2010s TV Shows",
+  intro: "Study major scripted television shows, streaming hits, creators, characters, and awards from the 2010s.",
+  groups: [
+    {
+      name: "Prestige Dramas",
+      cards: [
+        {
+          prompt: "Which AMC series follows chemistry teacher Walter White as he becomes the drug kingpin Heisenberg?",
+          answer: "Breaking Bad.",
+        },
+        {
+          prompt: "Which HBO fantasy drama adapts George R. R. Martin's A Song of Ice and Fire novels?",
+          answer: "Game of Thrones.",
+        },
+        {
+          prompt: "Which FX series created by Noah Hawley is an anthology inspired by a Coen brothers film?",
+          answer: "Fargo.",
+        },
+        {
+          prompt: "Which USA Network drama stars Rami Malek as hacker Elliot Alderson?",
+          answer: "Mr. Robot.",
+        },
+        {
+          prompt: "Which AMC series follows ad executive Don Draper and ended in 2015?",
+          answer: "Mad Men.",
+        },
+      ],
+    },
+    {
+      name: "Comedies",
+      cards: [
+        {
+          prompt: "Which NBC sitcom is set in Pawnee, Indiana, and stars Amy Poehler as Leslie Knope?",
+          answer: "Parks and Recreation.",
+        },
+        {
+          prompt: "Which Fox and NBC sitcom follows Detective Jake Peralta and the 99th Precinct?",
+          answer: "Brooklyn Nine-Nine.",
+        },
+        {
+          prompt: "Which HBO comedy follows a group of young women in New York City and was created by Lena Dunham?",
+          answer: "Girls.",
+        },
+        {
+          prompt: "Which Comedy Central series was created by and starred Abbi Jacobson and Ilana Glazer?",
+          answer: "Broad City.",
+        },
+        {
+          prompt: "Which Netflix comedy stars Ellie Kemper as a woman rebuilding her life after escaping a bunker?",
+          answer: "Unbreakable Kimmy Schmidt.",
+        },
+      ],
+    },
+    {
+      name: "Streaming Era",
+      cards: [
+        {
+          prompt: "Which Netflix political drama stars Kevin Spacey as Frank Underwood?",
+          answer: "House of Cards.",
+        },
+        {
+          prompt: "Which Netflix series is set in the fictional town of Hawkins, Indiana?",
+          answer: "Stranger Things.",
+        },
+        {
+          prompt: "Which Hulu dystopian drama adapts Margaret Atwood's novel about Gilead?",
+          answer: "The Handmaid's Tale.",
+        },
+        {
+          prompt: "Which Netflix anthology series is known for dark stories about technology and society?",
+          answer: "Black Mirror.",
+        },
+        {
+          prompt: "Which Amazon series stars Rachel Brosnahan as aspiring stand-up comic Midge Maisel?",
+          answer: "The Marvelous Mrs. Maisel.",
+        },
+      ],
+    },
+    {
+      name: "Characters And Creators",
+      cards: [
+        {
+          prompt: "Which Phoebe Waller-Bridge comedy features a fourth-wall-breaking London protagonist?",
+          answer: "Fleabag.",
+        },
+        {
+          prompt: "Which Donald Glover series follows Earn, Paper Boi, and Darius?",
+          answer: "Atlanta.",
+        },
+        {
+          prompt: "Which Michael Schur sitcom sends Eleanor Shellstrop to an unusual afterlife?",
+          answer: "The Good Place.",
+        },
+        {
+          prompt: "Which Dan and Eugene Levy sitcom centers on the once-wealthy Rose family?",
+          answer: "Schitt's Creek.",
+        },
+        {
+          prompt: "Which BBC America thriller stars Sandra Oh as Eve Polastri and Jodie Comer as Villanelle?",
+          answer: "Killing Eve.",
+        },
+      ],
+    },
+    {
+      name: "Awards And Milestones",
+      cards: [
+        {
+          prompt: "Which fantasy drama won the Emmy for Outstanding Drama Series four times in the 2010s?",
+          answer: "Game of Thrones.",
+        },
+        {
+          prompt: "Which comedy won five consecutive Emmys for Outstanding Comedy Series from 2010 through 2014?",
+          answer: "Modern Family.",
+        },
+        {
+          prompt: "Which limited series about the O. J. Simpson trial won the 2016 Emmy for Outstanding Limited Series?",
+          answer: "The People v. O. J. Simpson: American Crime Story.",
+        },
+        {
+          prompt: "Which animated series about a depressed former sitcom star premiered on Netflix in 2014?",
+          answer: "BoJack Horseman.",
+        },
+        {
+          prompt: "Which 2010s sitcom popularized the phrase 'Treat yo' self'?",
+          answer: "Parks and Recreation.",
+        },
+      ],
+    },
+  ],
+};
+
 export const twentiethCenturyNovelsTopic: JeopardyTopic = {
   title: "20th Century Novels",
   intro: "Study major 20th century novels, authors, characters, movements, and global literary landmarks.",
