@@ -20,6 +20,7 @@ import USStatesGamePage from './pages/USStatesGamePage'
 import TwentiethCenturyLiteraturePage from './pages/TwentiethCenturyLiteraturePage'
 import {
   ancientHistoryTopic,
+  animalsOfNorthAmericaTopic,
   artHistoryTopic,
   astronomyTopic,
   biologyTopic,
@@ -55,6 +56,7 @@ function App() {
         <Route path="/2010s-tv-shows" element={<JeopardyTriviaPage topic={twentyTensTvShowsTopic} />} />
         <Route path="/american-literature" element={<AmericanLiteraturePage />} />
         <Route path="/ancient-history" element={<JeopardyTriviaPage topic={ancientHistoryTopic} />} />
+        <Route path="/animals-of-north-america" element={<JeopardyTriviaPage topic={animalsOfNorthAmericaTopic} />} />
         <Route path="/art-history" element={<JeopardyTriviaPage topic={artHistoryTopic} />} />
         <Route path="/astronomy" element={<JeopardyTriviaPage topic={astronomyTopic} />} />
         <Route path="/biology" element={<JeopardyTriviaPage topic={biologyTopic} />} />

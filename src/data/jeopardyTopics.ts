@@ -2927,3 +2927,135 @@ export const moonsOfPlanetsTopic: JeopardyTopic = {
     },
   ],
 };
+
+export const animalsOfNorthAmericaTopic: JeopardyTopic = {
+  title: "Animals of North America",
+  intro: "Study the mammals, birds, reptiles, marine life, and habitats of North America.",
+  groups: [
+    {
+      name: "Mammals",
+      cards: [
+        {
+          prompt: "What is the largest land mammal native to North America?",
+          answer: "The American bison.",
+        },
+        {
+          prompt: "Which member of the deer family has broad, palmate antlers and is the largest deer species?",
+          answer: "The moose.",
+        },
+        {
+          prompt: "Which North American mammal is known for building dams and lodges?",
+          answer: "The North American beaver.",
+        },
+        {
+          prompt: "Which fast North American hoofed mammal is the only living member of the family Antilocapridae?",
+          answer: "The pronghorn.",
+        },
+        {
+          prompt: "Which masked mammal is famous for its dexterous front paws and adaptability to cities?",
+          answer: "The raccoon.",
+        },
+      ],
+    },
+    {
+      name: "Birds",
+      cards: [
+        {
+          prompt: "Which bird has been the national emblem of the United States since 1782?",
+          answer: "The bald eagle.",
+        },
+        {
+          prompt: "Which large North American bird is famous for its fan-shaped tail and gobbling call?",
+          answer: "The wild turkey.",
+        },
+        {
+          prompt: "Which tiny migratory bird flies nonstop across the Gulf of Mexico during part of its migration?",
+          answer: "The ruby-throated hummingbird.",
+        },
+        {
+          prompt: "Which nocturnal bird of northern forests has a round head, yellow eyes, and no visible ear tufts?",
+          answer: "The great gray owl.",
+        },
+        {
+          prompt: "Which pink wading bird found along the Gulf Coast gets its color from pigments in its food?",
+          answer: "The roseate spoonbill.",
+        },
+      ],
+    },
+    {
+      name: "Reptiles And Amphibians",
+      cards: [
+        {
+          prompt: "Which crocodilian lives in wetlands across the southeastern United States?",
+          answer: "The American alligator.",
+        },
+        {
+          prompt: "Which venomous desert snake warns threats by vibrating a structure at the end of its tail?",
+          answer: "A rattlesnake.",
+        },
+        {
+          prompt: "Which large venomous lizard is native to the southwestern United States and northwestern Mexico?",
+          answer: "The Gila monster.",
+        },
+        {
+          prompt: "Which amphibian found in Mexico retains its feathery external gills as an adult?",
+          answer: "The axolotl.",
+        },
+        {
+          prompt: "Which North American turtle is named for its powerful jaws and hooked beak?",
+          answer: "The snapping turtle.",
+        },
+      ],
+    },
+    {
+      name: "Coasts And Oceans",
+      cards: [
+        {
+          prompt: "Which whale makes one of the longest known mammal migrations, traveling between Arctic feeding grounds and Mexican lagoons?",
+          answer: "The gray whale.",
+        },
+        {
+          prompt: "Which marine mammal uses rocks to open shellfish while floating on its back?",
+          answer: "The sea otter.",
+        },
+        {
+          prompt: "Which tusked Arctic marine mammal gathers in large herds on sea ice and beaches?",
+          answer: "The walrus.",
+        },
+        {
+          prompt: "Which salmon species is the largest of the Pacific salmon?",
+          answer: "The Chinook salmon.",
+        },
+        {
+          prompt: "Which slow-moving marine mammal inhabits warm coastal waters and rivers around Florida and the Caribbean?",
+          answer: "The West Indian manatee.",
+        },
+      ],
+    },
+    {
+      name: "Habitats And Survival",
+      cards: [
+        {
+          prompt: "Which Arctic predator has black skin beneath translucent-looking fur?",
+          answer: "The polar bear.",
+        },
+        {
+          prompt: "Which fox changes from brown or gray in summer to a thick white coat in winter in much of its range?",
+          answer: "The Arctic fox.",
+        },
+        {
+          prompt: "Which desert bird can sprint after prey and is known for hunting rattlesnakes?",
+          answer: "The greater roadrunner.",
+        },
+        {
+          prompt: "Which small prairie mammal lives in colonies sometimes called towns?",
+          answer: "The prairie dog.",
+        },
+        {
+          prompt: "Which spotted wild cat ranges from the southwestern United States through Mexico and into Central and South America?",
+          answer: "The ocelot.",
+        },
+      ],
+    },
+  ],
+};

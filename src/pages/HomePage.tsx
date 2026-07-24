@@ -15,6 +15,7 @@ export default function HomePage() {
         <TopicCard title="English Literature" emoji="📖" to="/english-literature" />
         <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
         <TopicCard title="Ancient History" emoji="🏛️" to="/ancient-history" />
+        <TopicCard title="Animals of North America" emoji="🦬" to="/animals-of-north-america" />
         <TopicCard title="Art History" emoji="🖼️" to="/art-history" />
         <TopicCard title="Astronomy" emoji="🔭" to="/astronomy" />
         <TopicCard title="Biology" emoji="🧬" to="/biology" />
