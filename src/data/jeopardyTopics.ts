@@ -1027,6 +1027,138 @@ export const twentyTensTvShowsTopic: JeopardyTopic = {
   ],
 };
 
+export const britishMonarchsTopic: JeopardyTopic = {
+  title: "Kings and Queens of Britain",
+  intro: "Study English, Scottish, British, and United Kingdom monarchs from the Norman Conquest to the present.",
+  groups: [
+    {
+      name: "Early Kings",
+      cards: [
+        {
+          prompt: "Which Norman duke became king of England after winning the Battle of Hastings in 1066?",
+          answer: "William the Conqueror.",
+        },
+        {
+          prompt: "Which English king was forced by his barons to seal Magna Carta in 1215?",
+          answer: "King John.",
+        },
+        {
+          prompt: "Which king was known as the Lionheart and spent much of his reign on crusade or abroad?",
+          answer: "Richard I.",
+        },
+        {
+          prompt: "Which English king conquered Wales and fought wars against Scotland in the late 1200s?",
+          answer: "Edward I.",
+        },
+        {
+          prompt: "Which Scottish king defeated the English at Bannockburn in 1314?",
+          answer: "Robert the Bruce.",
+        },
+      ],
+    },
+    {
+      name: "Medieval Monarchs",
+      cards: [
+        {
+          prompt: "Which English king won the Battle of Agincourt in 1415?",
+          answer: "Henry V.",
+        },
+        {
+          prompt: "Which long-reigning king's weakness helped trigger the Wars of the Roses?",
+          answer: "Henry VI.",
+        },
+        {
+          prompt: "Which Yorkist king was the father of the Princes in the Tower?",
+          answer: "Edward IV.",
+        },
+        {
+          prompt: "Which king was defeated by Henry Tudor at the Battle of Bosworth Field in 1485?",
+          answer: "Richard III.",
+        },
+        {
+          prompt: "Which monarch founded the Tudor dynasty after the Wars of the Roses?",
+          answer: "Henry VII.",
+        },
+      ],
+    },
+    {
+      name: "Tudors And Stuarts",
+      cards: [
+        {
+          prompt: "Which Tudor king broke with Rome and had six wives?",
+          answer: "Henry VIII.",
+        },
+        {
+          prompt: "Which queen was the first woman to rule England in her own right?",
+          answer: "Mary I.",
+        },
+        {
+          prompt: "Which queen ruled during the defeat of the Spanish Armada in 1588?",
+          answer: "Elizabeth I.",
+        },
+        {
+          prompt: "Which Scottish king also became James I of England in 1603?",
+          answer: "James VI of Scotland.",
+        },
+        {
+          prompt: "Which king was executed in 1649 after the English Civil War?",
+          answer: "Charles I.",
+        },
+      ],
+    },
+    {
+      name: "Georgian To Victorian",
+      cards: [
+        {
+          prompt: "Which queen was the last Stuart monarch and reigned when England and Scotland united in 1707?",
+          answer: "Queen Anne.",
+        },
+        {
+          prompt: "Which Hanoverian monarch was the first King George of Great Britain?",
+          answer: "George I.",
+        },
+        {
+          prompt: "Which king ruled during the American Revolution?",
+          answer: "George III.",
+        },
+        {
+          prompt: "Which monarch gave her name to an era of industrial expansion and empire from 1837 to 1901?",
+          answer: "Queen Victoria.",
+        },
+        {
+          prompt: "Which king succeeded Queen Victoria and gave his name to the Edwardian era?",
+          answer: "Edward VII.",
+        },
+      ],
+    },
+    {
+      name: "Modern Monarchs",
+      cards: [
+        {
+          prompt: "Which king was on the throne during most of World War I?",
+          answer: "George V.",
+        },
+        {
+          prompt: "Which king abdicated in 1936 to marry Wallis Simpson?",
+          answer: "Edward VIII.",
+        },
+        {
+          prompt: "Which king led the monarchy through World War II and was the father of Elizabeth II?",
+          answer: "George VI.",
+        },
+        {
+          prompt: "Which monarch had the longest reign in British history, from 1952 to 2022?",
+          answer: "Elizabeth II.",
+        },
+        {
+          prompt: "Which monarch succeeded Elizabeth II in 2022?",
+          answer: "Charles III.",
+        },
+      ],
+    },
+  ],
+};
+
 export const twentiethCenturyNovelsTopic: JeopardyTopic = {
   title: "20th Century Novels",
   intro: "Study major 20th century novels, authors, characters, movements, and global literary landmarks.",

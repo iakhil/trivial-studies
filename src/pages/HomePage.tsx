@@ -20,6 +20,7 @@ export default function HomePage() {
         <TopicCard title="Astronomy" emoji="🔭" to="/astronomy" />
         <TopicCard title="Biology" emoji="🧬" to="/biology" />
         <TopicCard title="Brazilian Geography" emoji="🇧🇷" to="/brazilian-geography" />
+        <TopicCard title="Kings and Queens of Britain" emoji="👑" to="/kings-and-queens-of-britain" />
         <TopicCard title="Chemistry" emoji="⚗️" to="/chemistry" />
         <TopicCard title="Country Flags" emoji="🌍" to="/country-flags" />
         <TopicCard title="Countries & Capitals" emoji="🏛️" to="/country-capitals" />

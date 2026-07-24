@@ -25,6 +25,7 @@ import {
   astronomyTopic,
   biologyTopic,
   brazilianGeographyTopic,
+  britishMonarchsTopic,
   chemistryTopic,
   europeanHistoryTopic,
   fifaWorldCupTopic,
@@ -61,6 +62,7 @@ function App() {
         <Route path="/astronomy" element={<JeopardyTriviaPage topic={astronomyTopic} />} />
         <Route path="/biology" element={<JeopardyTriviaPage topic={biologyTopic} />} />
         <Route path="/brazilian-geography" element={<JeopardyTriviaPage topic={brazilianGeographyTopic} />} />
+        <Route path="/kings-and-queens-of-britain" element={<JeopardyTriviaPage topic={britishMonarchsTopic} />} />
         <Route path="/chemistry" element={<JeopardyTriviaPage topic={chemistryTopic} />} />
         <Route path="/country-flags" element={<CountryFlagsPage />} />
         <Route path="/country-capitals" element={<CountryCapitalsPage />} />
