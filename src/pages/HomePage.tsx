@@ -32,6 +32,7 @@ export default function HomePage() {
         <TopicCard title="Geologic Time" emoji="🪨" to="/geologic-time" />
         <TopicCard title="World's Mountain Ranges" emoji="🏔️" to="/mountain-ranges" />
         <TopicCard title="Geography" emoji="🧭" to="/geography" />
+        <TopicCard title="Greek Mythology" emoji="⚡" to="/greek-mythology" />
         <TopicCard title="Moons of Planets" emoji="🌙" to="/moons-of-planets" />
         <TopicCard title="Mythology" emoji="⚡" to="/mythology" />
         <TopicCard title="Opera Trivia" emoji="🎭" to="/opera-trivia" />
