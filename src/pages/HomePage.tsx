@@ -52,6 +52,7 @@ export default function HomePage() {
         <TopicCard title="Word Origins & Language" emoji="🔤" to="/word-origins" />
         <TopicCard title="World Wars" emoji="🎖️" to="/world-wars" />
         <TopicCard title="World History" emoji="🏺" to="/world-history" />
+        <TopicCard title="World Islands" emoji="🏝️" to="/world-islands" />
       </div>
     </div>
   );
