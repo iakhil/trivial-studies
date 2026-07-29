@@ -22,6 +22,7 @@ export default function HomePage() {
         <TopicCard title="Brazilian Geography" emoji="🇧🇷" to="/brazilian-geography" />
         <TopicCard title="Kings and Queens of Britain" emoji="👑" to="/kings-and-queens-of-britain" />
         <TopicCard title="Chemistry" emoji="⚗️" to="/chemistry" />
+        <TopicCard title="Computer History" emoji="💻" to="/computer-history" />
         <TopicCard title="Country Flags" emoji="🌍" to="/country-flags" />
         <TopicCard title="Countries & Capitals" emoji="🏛️" to="/country-capitals" />
         <TopicCard title="Countries & Populations" emoji="📊" to="/country-populations" />
