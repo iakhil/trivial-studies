@@ -15,6 +15,7 @@ import JeopardyTriviaPage from './pages/JeopardyTriviaPage'
 import MountainRangesPage from './pages/MountainRangesPage'
 import OperaTriviaPage from './pages/OperaTriviaPage'
 import RiversPage from './pages/RiversPage'
+import { riversByMajorWorldCitiesTopic } from './data/riversByMajorWorldCities'
 import ShakespeareTriviaPage from './pages/ShakespeareTriviaPage'
 import USHistoryPage from './pages/USHistoryPage'
 import USPresidentsPage from './pages/USPresidentsPage'
@@ -87,6 +88,7 @@ function App() {
         <Route path="/polish-history" element={<JeopardyTriviaPage topic={polishHistoryTopic} />} />
         <Route path="/pulitzer-prize-trivia" element={<JeopardyTriviaPage topic={pulitzerPrizeTriviaTopic} />} />
         <Route path="/rivers" element={<RiversPage />} />
+        <Route path="/rivers-by-major-world-cities" element={<JeopardyTriviaPage topic={riversByMajorWorldCitiesTopic} />} />
         <Route path="/roman-mythology" element={<JeopardyTriviaPage topic={romanMythologyTopic} />} />
         <Route path="/science-grab-bag" element={<JeopardyTriviaPage topic={scienceGrabBagTopic} />} />
         <Route path="/shakespeare-trivia" element={<ShakespeareTriviaPage />} />

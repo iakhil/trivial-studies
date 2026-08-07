@@ -40,6 +40,7 @@ export default function HomePage() {
         <TopicCard title="Polish History" emoji="🇵🇱" to="/polish-history" />
         <TopicCard title="Pulitzer Prize Trivia" emoji="🏆" to="/pulitzer-prize-trivia" />
         <TopicCard title="World Rivers by Country" emoji="🌊" to="/rivers" />
+        <TopicCard title="Rivers by Major World Cities" emoji="🏙️" to="/rivers-by-major-world-cities" />
         <TopicCard title="Roman Mythology" emoji="🏺" to="/roman-mythology" />
         <TopicCard title="Science Grab Bag" emoji="🔬" to="/science-grab-bag" />
         <TopicCard title="Shakespeare Trivia" emoji="🪶" to="/shakespeare-trivia" />
