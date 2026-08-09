@@ -21,6 +21,7 @@ import USHistoryPage from './pages/USHistoryPage'
 import USPresidentsPage from './pages/USPresidentsPage'
 import USStatesGamePage from './pages/USStatesGamePage'
 import TwentiethCenturyLiteraturePage from './pages/TwentiethCenturyLiteraturePage'
+import { victorHugoBooksTopic } from './data/victorHugoBooks'
 import { worldIslandsTopic } from './data/worldIslands'
 import {
   ancientHistoryTopic,
@@ -97,6 +98,7 @@ function App() {
         <Route path="/us-national-parks" element={<JeopardyTriviaPage topic={usNationalParksTopic} />} />
         <Route path="/us-presidents" element={<USPresidentsPage />} />
         <Route path="/us-states-game" element={<USStatesGamePage />} />
+        <Route path="/victor-hugo-books" element={<JeopardyTriviaPage topic={victorHugoBooksTopic} />} />
         <Route path="/volcanoes" element={<JeopardyTriviaPage topic={volcanoesTopic} />} />
         <Route path="/word-origins" element={<JeopardyTriviaPage topic={wordOriginsTopic} />} />
         <Route path="/world-wars" element={<JeopardyTriviaPage topic={worldWarsTopic} />} />
