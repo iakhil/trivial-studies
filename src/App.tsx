@@ -16,6 +16,7 @@ import MountainRangesPage from './pages/MountainRangesPage'
 import OperaTriviaPage from './pages/OperaTriviaPage'
 import RiversPage from './pages/RiversPage'
 import { riversByMajorWorldCitiesTopic } from './data/riversByMajorWorldCities'
+import { saturnVAndOtherRocketsTopic } from './data/saturnVAndOtherRockets'
 import ShakespeareTriviaPage from './pages/ShakespeareTriviaPage'
 import USHistoryPage from './pages/USHistoryPage'
 import USPresidentsPage from './pages/USPresidentsPage'
@@ -91,6 +92,7 @@ function App() {
         <Route path="/rivers" element={<RiversPage />} />
         <Route path="/rivers-by-major-world-cities" element={<JeopardyTriviaPage topic={riversByMajorWorldCitiesTopic} />} />
         <Route path="/roman-mythology" element={<JeopardyTriviaPage topic={romanMythologyTopic} />} />
+        <Route path="/saturn-v-and-other-rockets" element={<JeopardyTriviaPage topic={saturnVAndOtherRocketsTopic} />} />
         <Route path="/science-grab-bag" element={<JeopardyTriviaPage topic={scienceGrabBagTopic} />} />
         <Route path="/shakespeare-trivia" element={<ShakespeareTriviaPage />} />
         <Route path="/sports-trivia" element={<JeopardyTriviaPage topic={sportsTriviaTopic} />} />
