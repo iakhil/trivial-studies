@@ -53,6 +53,7 @@ export default function HomePage() {
         <TopicCard title="Victor Hugo Books" emoji="📗" to="/victor-hugo-books" />
         <TopicCard title="Volcanoes" emoji="🌋" to="/volcanoes" />
         <TopicCard title="Word Origins & Language" emoji="🔤" to="/word-origins" />
+        <TopicCard title="World Bridges" emoji="🌉" to="/world-bridges" />
         <TopicCard title="World Wars" emoji="🎖️" to="/world-wars" />
         <TopicCard title="World History" emoji="🏺" to="/world-history" />
         <TopicCard title="World Islands" emoji="🏝️" to="/world-islands" />
