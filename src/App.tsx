@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
+import { americanCivilWarTopic } from './data/americanCivilWar'
 import AmericanLiteraturePage from './pages/AmericanLiteraturePage'
 import CountryFlagsPage from './pages/CountryFlagsPage'
 import CountryCapitalsPage from './pages/CountryCapitalsPage'
@@ -62,6 +63,7 @@ function App() {
         <Route path="/20th-century-literature" element={<TwentiethCenturyLiteraturePage />} />
         <Route path="/20th-century-novels" element={<JeopardyTriviaPage topic={twentiethCenturyNovelsTopic} />} />
         <Route path="/2010s-tv-shows" element={<JeopardyTriviaPage topic={twentyTensTvShowsTopic} />} />
+        <Route path="/american-civil-war" element={<JeopardyTriviaPage topic={americanCivilWarTopic} />} />
         <Route path="/american-literature" element={<AmericanLiteraturePage />} />
         <Route path="/ancient-history" element={<JeopardyTriviaPage topic={ancientHistoryTopic} />} />
         <Route path="/animals-of-north-america" element={<JeopardyTriviaPage topic={animalsOfNorthAmericaTopic} />} />

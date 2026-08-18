@@ -13,6 +13,7 @@ export default function HomePage() {
         <TopicCard title="20th Century Novels" emoji="📘" to="/20th-century-novels" />
         <TopicCard title="2010s TV Shows" emoji="📺" to="/2010s-tv-shows" />
         <TopicCard title="English Literature" emoji="📖" to="/english-literature" />
+        <TopicCard title="American Civil War" emoji="⚔️" to="/american-civil-war" />
         <TopicCard title="American Literature" emoji="📚" to="/american-literature" />
         <TopicCard title="Ancient History" emoji="🏛️" to="/ancient-history" />
         <TopicCard title="Animals of North America" emoji="🦬" to="/animals-of-north-america" />
