@@ -28,6 +28,7 @@ export default function HomePage() {
         <TopicCard title="Countries & Capitals" emoji="🏛️" to="/country-capitals" />
         <TopicCard title="Countries & Populations" emoji="📊" to="/country-populations" />
         <TopicCard title="Dinosaurs" emoji="🦖" to="/dinosaurs" />
+        <TopicCard title="Disney Characters" emoji="🏰" to="/disney-characters" />
         <TopicCard title="European History" emoji="🏰" to="/european-history" />
         <TopicCard title="FIFA World Cup" emoji="⚽" to="/fifa-world-cup" />
         <TopicCard title="Film And Television" emoji="🎬" to="/film-and-television" />

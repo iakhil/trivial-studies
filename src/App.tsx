@@ -6,6 +6,7 @@ import CountryFlagsPage from './pages/CountryFlagsPage'
 import CountryCapitalsPage from './pages/CountryCapitalsPage'
 import CountryPopulationsPage from './pages/CountryPopulationsPage'
 import { computerHistoryTopic } from './data/computerHistory'
+import { disneyCharactersTopic } from './data/disneyCharacters'
 import DinosaursPage from './pages/DinosaursPage'
 import EnglishLiteraturePage from './pages/EnglishLiteraturePage'
 import GeologicTimePage from './pages/GeologicTimePage'
@@ -78,6 +79,7 @@ function App() {
         <Route path="/country-capitals" element={<CountryCapitalsPage />} />
         <Route path="/country-populations" element={<CountryPopulationsPage />} />
         <Route path="/dinosaurs" element={<DinosaursPage />} />
+        <Route path="/disney-characters" element={<JeopardyTriviaPage topic={disneyCharactersTopic} />} />
         <Route path="/english-literature" element={<EnglishLiteraturePage />} />
         <Route path="/european-history" element={<JeopardyTriviaPage topic={europeanHistoryTopic} />} />
         <Route path="/fifa-world-cup" element={<JeopardyTriviaPage topic={fifaWorldCupTopic} />} />
