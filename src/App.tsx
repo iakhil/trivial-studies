@@ -15,6 +15,7 @@ import { greekMythologyTopic } from './data/greekMythology'
 import { lakesOfTheWorldTopic } from './data/lakesOfTheWorld'
 import JeopardyPrepPage from './pages/JeopardyPrepPage'
 import JeopardyTriviaPage from './pages/JeopardyTriviaPage'
+import { mountainPeaksTopic } from './data/mountainPeaks'
 import MountainRangesPage from './pages/MountainRangesPage'
 import OperaTriviaPage from './pages/OperaTriviaPage'
 import RiversPage from './pages/RiversPage'
@@ -88,6 +89,7 @@ function App() {
         <Route path="/geologic-time" element={<GeologicTimePage />} />
         <Route path="/greek-mythology" element={<JeopardyTriviaPage topic={greekMythologyTopic} />} />
         <Route path="/lakes-of-the-world" element={<JeopardyTriviaPage topic={lakesOfTheWorldTopic} />} />
+        <Route path="/mountain-peaks" element={<JeopardyTriviaPage topic={mountainPeaksTopic} />} />
         <Route path="/mountain-ranges" element={<MountainRangesPage />} />
         <Route path="/geography" element={<GeographyPage />} />
         <Route path="/jeopardy-prep" element={<JeopardyPrepPage />} />
